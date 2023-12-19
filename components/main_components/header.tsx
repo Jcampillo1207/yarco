@@ -75,7 +75,7 @@ export const Header = () => {
             onClick={() => router.push("/contacto")}
             className="text-base"
           >
-            {t("button1")}
+            {t("button6")}
           </Button>
         </div>
         <Sheet>
@@ -86,7 +86,6 @@ export const Header = () => {
           </SheetTrigger>
           <SheetContent className="pb-10">
             <SheetHeader>
-              <SheetTitle>Menú</SheetTitle>
             </SheetHeader>
             <div className="flex flex-col items-start justify-between gap-y-3 py-7 h-full">
               <div className="flex flex-col items-start gap-y-3 w-full">
@@ -96,7 +95,7 @@ export const Header = () => {
                   onClick={() => router.push("/")}
                   className="text-muted-foreground text-base w-full justify-start"
                 >
-                  Inicio
+                  {t("button2")}
                 </Button>
                 <Button
                   variant={"ghost"}
@@ -104,7 +103,7 @@ export const Header = () => {
                   onClick={() => router.push("/prods")}
                   className="text-muted-foreground text-base w-full justify-start"
                 >
-                  Productos y servicios
+                  {t("button2")}
                 </Button>
                 <Button
                   variant={"ghost"}
@@ -112,7 +111,7 @@ export const Header = () => {
                   onClick={() => router.push("/cultura")}
                   className="text-muted-foreground text-base w-full justify-start"
                 >
-                  Cultura
+                  {t("button3")}
                 </Button>
                 <Button
                   variant={"ghost"}
@@ -120,7 +119,7 @@ export const Header = () => {
                   onClick={() => router.push("/blog")}
                   className="text-muted-foreground text-base w-full justify-start"
                 >
-                  Insights
+                  {t("button4")}
                 </Button>
                 <Button
                   variant={"link"}
@@ -128,7 +127,7 @@ export const Header = () => {
                   onClick={() => router.push("/track")}
                   className="text-base w-full justify-start"
                 >
-                  Rastrear mi orden
+                  {t("button5")}
                 </Button>
                 <Button
                   variant={"default"}
@@ -136,11 +135,11 @@ export const Header = () => {
                   onClick={() => router.push("/contacto")}
                   className="text-base w-full justify-start"
                 >
-                  Contáctanos
+                  {t("button6")}
                 </Button>
               </div>
               <div className="w-full flex flex-col gap-y-5 items-start justify-start">
-                <p className="text-primary">Síguenos en:</p>
+                <p className="text-primary">{t("follow")}:</p>
                 <div className="w-full flex gap-x-3 items-center justify-start">
                   <Button variant={"outline"} size={"icon"} asChild>
                     <Link href="/insta" target="_blank">
