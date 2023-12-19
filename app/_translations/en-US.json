@@ -1,0 +1,27 @@
+{
+  "Header": {
+    "button1": "Home",
+    "button2": "Products and Services",
+    "button3": "Culture",
+    "button4": "Insights",
+    "button5": "Track my order",
+    "button6": "Contact Us"
+  },
+
+  "HomePageSec1": {
+    "title": "We fill our trusty trucks and deliver with safety",
+    "button1": "Contact US",
+    "button2": "Track my order"
+  },
+
+  "HomePageSec2": {
+    "title": "We understand logistics",
+    "button1": "Products and Services",
+    "button2": "Our team",
+    "button3": "Customer Service"
+  },
+
+  "HomePageSec3": {
+    "title": "We trust in the quality of our processes"
+  }
+}

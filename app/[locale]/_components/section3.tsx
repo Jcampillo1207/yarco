@@ -1,4 +1,5 @@
 import { AnimCard, InfoCard } from "@/components/main_components/card";
+import { useTranslations } from "next-intl";
 import {
   OnText,
   OnTitle,
@@ -8,10 +9,11 @@ import {
 import { FileCheck2 } from "lucide-react";
 
 export const Section3 = () => {
+  const t = useTranslations("HomePageSec3");
   return (
     <section className="w-full h-fit flex items-center justify-start px-5 md:px-7 lg:px-14 flex-col gap-y-14 lg:gap-y-20">
       <div className="w-full flex items-center justify-center flex-col gap-y-5 md:gap-y-7">
-        <Title>Confiamos en la calidad de nuestros procesos</Title>
+        <Title>{t("title")}</Title>
         <TextPrimary>
           Lorem ipsum dolor sit amet consectetur. Pulvinar nulla posuere neque
           odio sit consectetur sed montes urna. Dictum consequat scelerisque

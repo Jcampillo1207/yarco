@@ -27,7 +27,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn(font.className, "bg-[#f0f0f0]")}>
-        <Header />
         {children}
       </body>
     </html>

@@ -1,0 +1,27 @@
+{
+  "Header": {
+    "button1": "Inicio",
+    "button2": "Productos y servicios",
+    "button3": "Cultura",
+    "button4": "Recursos",
+    "button5": "Rastrea mi pedido",
+    "button6": "Contáctanos"
+  },
+
+  "HomePageSec1": {
+    "title": "Llenamos nuestros camiones de confianza y entregamos con seguridad",
+    "button1": "Contáctanos",
+    "button2": "Rastrea mi orden"
+  },
+
+  "HomePageSec2": {
+    "title": "Sabemos de logística",
+    "button1": "Productos y servicios",
+    "button2": "Nuestro equipo",
+    "button3": "Atención a clientes"
+  },
+
+  "HomePageSec3": {
+    "title": "Confiamos en la calidad de nuestros procesos"
+  }
+}
