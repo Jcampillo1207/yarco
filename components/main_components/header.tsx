@@ -7,9 +7,7 @@ import { useRouter } from "next/navigation";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Facebook, Instagram, Linkedin, Menu } from "lucide-react";
@@ -78,6 +76,7 @@ export const Header = () => {
             {t("button6")}
           </Button>
         </div>
+        <LocaleSwitcher />
         <Sheet>
           <SheetTrigger className="flex lg:hidden" asChild>
             <Button variant={"outline"} size={"icon"}>
@@ -85,8 +84,7 @@ export const Header = () => {
             </Button>
           </SheetTrigger>
           <SheetContent className="pb-10">
-            <SheetHeader>
-            </SheetHeader>
+            <SheetHeader></SheetHeader>
             <div className="flex flex-col items-start justify-between gap-y-3 py-7 h-full">
               <div className="flex flex-col items-start gap-y-3 w-full">
                 <Button
@@ -95,7 +93,7 @@ export const Header = () => {
                   onClick={() => router.push("/")}
                   className="text-muted-foreground text-base w-full justify-start"
                 >
-                  {t("button2")}
+                  {t("button1")}
                 </Button>
                 <Button
                   variant={"ghost"}
@@ -161,7 +159,6 @@ export const Header = () => {
             </div>
           </SheetContent>
         </Sheet>
-        <LocaleSwitcher />
       </div>
     </header>
   );

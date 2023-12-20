@@ -1,6 +1,5 @@
 import { Header } from "@/components/main_components/header";
 import { NextIntlClientProvider } from "next-intl";
-import { notFound } from "next/navigation";
 
 interface Props {
   children: React.ReactNode;
@@ -20,13 +19,9 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale}>
-      <body>
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}
         </NextIntlClientProvider>
-      </body>
-    </html>
   );
 }

@@ -24,5 +24,12 @@
 
   "HomePageSec3": {
     "title": "Confiamos en la calidad de nuestros procesos"
+  },
+
+  "HomePageSec4": {
+    "title": "Soporte de la primera hasta la ultima milla",
+    "par": "En YARCO Logistic, nuestra prioridad es brindar un soporte completo desde la primera hasta la última milla en mis servicios de fletes. Utilizamos tecnología de vanguardia para rastrear cada orden en tiempo real, asegurando entregas confiables y eficientes. Puede contar con nosotros para una logística de primer nivel",
+    "button1": "Contáctanos",
+    "button2": "Rastrea mi orden"
   }
 }
