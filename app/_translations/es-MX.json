@@ -1,12 +1,32 @@
 {
   "Header": {
     "button1": "Inicio",
-    "button2": "Productos y servicios",
+    "button2": "Servicios",
     "button3": "Cultura",
     "button4": "Recursos",
     "button5": "Rastrea mi pedido",
     "button6": "Contáctanos",
     "follow": "Síguenos"
+  },
+
+  "Footer": {
+    "Col1-1": "Servicios:",
+    "Col1-2": "Caja Seca",
+    "Col1-3": "Refrigerados",
+    "Col1-4": "Arrastre",
+    "Col1-5": "Plataforma",
+    "Col2-1": "Cultura:",
+    "Col2-2": "Nuestro Equipo",
+    "Col2-3": "Historia",
+    "Col2-4": "Compromiso",
+    "Col3-1": "Contacto:",
+    "Col3-2": "Correo electrónico",
+    "Col3-3": "Teléfono",
+    "Col4-1": "Recursos:",
+    "Col4-2": "Rastrea mi pedido",
+    "Col4-3": "Trabaja con nosotros",
+    "Col4-4": "Aviso de privacidad",
+    "Derechos": "Todos los derechos reservados."
   },
 
   "HomePageSec1": {
@@ -31,5 +51,26 @@
     "par": "En YARCO Logistic, nuestra prioridad es brindar un soporte completo desde la primera hasta la última milla en mis servicios de fletes. Utilizamos tecnología de vanguardia para rastrear cada orden en tiempo real, asegurando entregas confiables y eficientes. Puede contar con nosotros para una logística de primer nivel",
     "button1": "Contáctanos",
     "button2": "Rastrea mi orden"
+  },
+
+  "HomePageSec5": {
+    "title": "¿Por qué YARCO?"
+  },
+
+  "HomePageSec6": {
+    "title": "Nuestro equipo listo y capacitado para brindar el mejor servicio",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odit corrupti quae sint ipsa ex ipsum quod laudantium eos praesentium, in magnam! Assumenda quis pariatur tenetur aliquam ea molestias asperiores.",
+    "button": "Conoce nuestra cultura"
+  },
+
+  "TrackPageSec1": {
+    "title": "Rastrea tu orden de envío"
+  },
+
+  "TrackPageSec2": {
+    "title": "Ingresa los datos de tu orden",
+    "label": "Número de rastreo:",
+    "button1": "Buscar",
+    "placeholder": "Ingresa tu número de orden..."
   }
 }

@@ -1,12 +1,32 @@
 {
   "Header": {
     "button1": "Home",
-    "button2": "Products and Services",
+    "button2": "Services",
     "button3": "Culture",
     "button4": "Insights",
     "button5": "Track my order",
     "button6": "Contact Us",
     "follow": "Follow us"
+  },
+
+  "Footer": {
+    "Col1-1": "Services:",
+    "Col1-2": "Dry van",
+    "Col1-3": "Refrigerated",
+    "Col1-4": "Trailer Towing",
+    "Col1-5": "Platform",
+    "Col2-1": "Culture:",
+    "Col2-2": "Our Team",
+    "Col2-3": "History",
+    "Col2-4": "Compromise",
+    "Col3-1": "Contact:",
+    "Col3-2": "E-mail",
+    "Col3-3": "Phone",
+    "Col4-1": "Resources:",
+    "Col4-2": "Track my order",
+    "Col4-3": "Work with us",
+    "Col4-4": "Privacy Policy",
+    "Derechos": "All rights reserved."
   },
 
   "HomePageSec1": {
@@ -31,5 +51,26 @@
     "par": "At YARCO Logistic, our priority is to provide comprehensive support from the first to the last mile in our freight services. We use cutting-edge technology to track each order in real-time, ensuring reliable and efficient deliveries. You can count on us for top-tier logistics",
     "button1": "Contact US",
     "button2": "Track my order"
+  },
+
+  "HomePageSec5": {
+    "title": "Why YARCO?"
+  },
+
+  "HomePageSec6": {
+    "title": "Our team, ready and trained, is committed to providing the best service",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odit corrupti quae sint ipsa ex ipsum quod laudantium eos praesentium, in magnam! Assumenda quis pariatur tenetur aliquam ea molestias asperiores.",
+    "button": "Meet our culture"
+  },
+
+  "TrackPageSec1": {
+    "title": "Track your shipment order"
+  },
+
+  "TrackPageSec2": {
+    "title": "Enter your order details",
+    "label": "Tracking number:",
+    "button1": "Search",
+    "placeholder": "Enter your tracking number..."
   }
 }

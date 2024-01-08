@@ -1,4 +1,5 @@
 import { Header } from "@/components/main_components/header";
+import { Footer } from "@/components/main_components/footer"
 import { NextIntlClientProvider } from "next-intl";
 
 interface Props {
@@ -22,6 +23,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}
+          <Footer />
         </NextIntlClientProvider>
   );
 }
