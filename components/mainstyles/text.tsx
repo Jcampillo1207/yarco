@@ -36,3 +36,19 @@ export const OnText = ({children, className} : Props) => {
       </p>
   )
 }
+
+export const TrackTitle = ({children, className} : Props) => {
+  return (
+      <h4 className={cn("text-xl lg:text-2xl text-start font-bold", className)}>
+          {children}
+      </h4>
+  )
+}
+
+export const TrackText = ({children, className} : Props) => {
+  return (
+      <h4 className={cn("text-sm lg:text-base text-start", className)}>
+          {children}
+      </h4>
+  )
+}

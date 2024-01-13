@@ -69,8 +69,29 @@
 
   "TrackPageSec2": {
     "title": "Enter your order details",
+    "TitleTrack": "Track your shipping order quickly and securely",
+    "TextTrack": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequuntur sint non aspernatur nobis ipsum in. Ullam nam fuga maxime facere, odit culpa enim itaque exercitationem quasi quod illum incidunt",
     "label": "Tracking number:",
     "button1": "Search",
     "placeholder": "Enter your tracking number..."
+  },
+
+  "TrackPageSec3": {
+    "title": "Order number:"
+  },
+
+  "TrackingStatus": {
+    "Salida": "Exit from:",
+    "Ruta": "Direction:",
+    "Entrega": "Delivered at:",
+    "Fecha": "Date:",
+    "pickup": "PickUp",
+    "onroute": "On Route",
+    "delivered": "Delivered"
+  },
+
+  "Operator": {
+    "title": "Operator in charge:",
+    "Phone": "Phone number:"
   }
 }

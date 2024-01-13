@@ -69,8 +69,29 @@
 
   "TrackPageSec2": {
     "title": "Ingresa los datos de tu orden",
+    "TitleTrack": "Rastrea tu orden de envío de forma rápida y segura",
+    "TextTrack": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequuntur sint non aspernatur nobis ipsum in. Ullam nam fuga maxime facere, odit culpa enim itaque exercitationem quasi quod illum incidunt",
     "label": "Número de rastreo:",
     "button1": "Buscar",
     "placeholder": "Ingresa tu número de orden..."
+  },
+
+  "TrackPageSec3": {
+    "title": "Número de orden:"
+  },
+
+  "TrackingStatus": {
+    "Salida": "Salida de:",
+    "Ruta": "Dirección actual:",
+    "Entrega": "Dirección de entrega:",
+    "Fecha": "Fecha:",
+    "pickup": "Recibido",
+    "onroute": "En ruta",
+    "delivered": "Entregado"
+  },
+
+  "Operator": {
+    "title": "Operador a cargo:",
+    "Phone": "Teléfono:"
   }
 }
