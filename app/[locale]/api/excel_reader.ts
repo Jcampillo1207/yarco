@@ -15,16 +15,19 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     const drive = google.drive({ version: 'v3', auth });
 
-    if (req.method === 'GET') {
+    if (req.method === 'POST') {
         // Process a POST request
-
-        const fileId = 'your-google-drive-file-id';
+        const id = req.body.id
+        const fileId = process.env.DRIVE_ID
         const response = await drive.files.get({
             fileId: fileId,
             alt: 'media'
         }, { responseType: 'json' });
 
+        
         res.json(response.data);
+
+
     } else {
         return { status: 400, message: "Incorrect Request" }
     }

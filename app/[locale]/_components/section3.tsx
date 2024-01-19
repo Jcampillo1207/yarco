@@ -7,6 +7,7 @@ import {
   Title,
 } from "@/components/mainstyles/text";
 import { FileCheck2 } from "lucide-react";
+import Image from "next/image";
 
 export const Section3 = () => {
   const t = useTranslations("HomePageSec3");
@@ -21,12 +22,8 @@ export const Section3 = () => {
           turpis a condimentum vitae.
         </TextPrimary>
       </div>
-      <div className="w-full h-fit grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-stretch justify-stretch gap-10">
-        <AnimCard>
-            <div className="w-full h-[100px]">
-
-            </div>
-        </AnimCard>
+      <div className="w-full h-[200px] md:h-[200px] lg:h-[300px] xl:h-[350px] flex items-center justify-center relative">
+        <Image src={"/trucks.png"} alt="Image" fill className="object-contain w-full"/>
       </div>
     </section>
   );

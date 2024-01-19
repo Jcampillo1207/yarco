@@ -193,30 +193,6 @@ export const Placa = () => {
         d="M1512.18 221.428V371.109H1486.01V221.428H1512.18Z"
         fill="#9CA7B6"
       />
-      <defs>
-        <radialGradient
-          id="paint0_radial_964_3719"
-          cx="0"
-          cy="0"
-          r="1"
-          gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(226.704 283.388) rotate(137.104) scale(101.288 101.288)"
-        >
-          <stop stop-color="#9CA7B6" />
-          <stop offset="1" stop-color="#9CA7B6" />
-        </radialGradient>
-        <linearGradient
-          id="paint1_linear_964_3719"
-          x1="1440.3"
-          y1="276.632"
-          x2="1333.74"
-          y2="326.586"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#9CA7B6" />
-          <stop offset="1" stop-color="#9CA7B6" />
-        </linearGradient>
-      </defs>
     </svg>
   );
 };

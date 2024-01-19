@@ -5,9 +5,9 @@ export default createMiddleware({
   locales,
   defaultLocale,
   localeDetection: true,
-  localePrefix: "always",
+  localePrefix: "always"
 });
 
 export const config = {
-  matcher: ["/((?!api|_next|.*\\..*).*)"],
+  matcher: ["/((?!/api/|_next|.*\\..*).*)"],
 };

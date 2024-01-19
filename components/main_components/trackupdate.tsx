@@ -31,7 +31,7 @@ export const TrackUpdate = ({
   const t = useTranslations("TrackingStatus");
   return (
     <div className="w-fit h-fit">
-      <span className="max-w-3xl w-fit h-fit flex items-stretch justify-start gap-x-7 lg:gap-x-14">
+      <span className="max-w-3xl w-fit h-fit flex items-start justify-start gap-x-7 lg:gap-x-14">
         <div className="w-fit flex flex-col items-center justify-start">
           <div
             className={cn(
@@ -40,12 +40,16 @@ export const TrackUpdate = ({
                 : "rounded-full bg-gray-300 w-8 h-8 min-h-[32px] aspect-square"
             )}
           ></div>
-          <div
+          {status !== "delivered" ? (
+            <div
             className={cn(
-              "w-1 h-full min-h-[100px]",
+              "w-1 h-full min-h-[180px]",
               active ? "bg-primary" : "bg-gray-300"
             )}
           ></div>
+          ) : (
+            <div className="hidden"></div>
+          )}
         </div>
         <div className="w-fit flex flex-col gap-y-3 pb-5 lg:pb-10">
           <TrackTitle

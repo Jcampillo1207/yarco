@@ -1,13 +1,33 @@
-import { TrackUpdate } from "@/components/main_components/trackupdate";
+"use client";
+
 import { OnTitle, TextPrimary, Title } from "@/components/mainstyles/text";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Search } from "lucide-react";
 import { useTranslations } from "next-intl";
+import axios from "axios";
+import { useState, FormEvent } from "react";
 
 export const Section2 = () => {
   const t = useTranslations("TrackPageSec2");
+
+  const [orderID, setOrderId] = useState<string | undefined>();
+  const handlePerformanceReport = async (event: FormEvent) => {
+    event.preventDefault(); 
+    try {
+      const response = await axios.post("https://yarco.vercel.app/api/excel-reader", {
+        id: orderID,
+      });
+
+      if (response.status === 400) {
+        throw new Error(response.data.message);
+      }
+    } catch (error: any) {
+      console.error("Error reading report: ", error);
+    }
+  };
+
   return (
     <section className="w-full h-fit grid items-center lg:items-stretch justify-between px-5 md:px-7 lg:px-14 grid-cols-1 lg:grid-cols-2 gap-y-10 md:gap-y-14 lg:gap-x-20">
       <div className="w-full h-fit flex flex-col gap-y-5 md:gap-y-10 items-center lg:items-start justify-center">
@@ -22,10 +42,15 @@ export const Section2 = () => {
           <Label htmlFor="order" className="text-primary text-sm md:text-base">
             {t("label")}
           </Label>
-          <Input id="order" placeholder={t("placeholder")} type="text" />
+          <Input
+            id="order"
+            onChange={(e) => setOrderId(e.target.value)}
+            placeholder={t("placeholder")}
+            type="text"
+          />
         </div>
         <Button
-          type="submit"
+          onClick={handlePerformanceReport}
           variant={"secondary"}
           size={"lg"}
           className="flex gap-x-2 w-full text-white bg-[#FF9900] hover:bg-[#FF9900] hover:shadow-md duration-300 ease-in-out"

@@ -1,7 +1,7 @@
 export const Raaf = () => {
   return (
     <svg
-      className="w-auto h-[70%]"
+      className="w-auto h-[80%]"
       viewBox="0 0 215 215"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
