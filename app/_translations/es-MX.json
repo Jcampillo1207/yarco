@@ -93,5 +93,25 @@
   "Operator": {
     "title": "Operador a cargo:",
     "Phone": "Teléfono:"
+  },
+
+  "ProdsSec1": {
+    "texto1": "Confiabilidad",
+    "texto2": "Seguridad",
+    "texto3": "Eficiencia",
+    "title": "Soluciones en envíos y logística" 
+  },
+
+  "ProdsSec2": {
+    "button1": "Caja seca",
+    "button2": "Plataforma",
+    "button3": "Refrigerados",
+    "button4": "Arrastre",
+    "solutions": "Expertos en:"
+  },
+
+  "ProdsSec3": {
+    "title": "Atención al cliente excepcional",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
   }
 }

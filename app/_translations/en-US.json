@@ -93,5 +93,25 @@
   "Operator": {
     "title": "Operator in charge:",
     "Phone": "Phone number:"
+  },
+
+  "ProdsSec1": {
+    "texto1": "Trustful",
+    "texto2": "Secure",
+    "texto3": "Efficent",
+    "title": "Shipping & logistics solutions" 
+  },
+
+  "ProdsSec2": {
+    "button1": "Dry box",
+    "button2": "Platform",
+    "button3": "Refrigerates",
+    "button4": "Drag",
+    "solutions": "Experts in:"
+  },
+
+  "ProdsSec3": {
+    "title": "Excepcional customer service",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
   }
 }

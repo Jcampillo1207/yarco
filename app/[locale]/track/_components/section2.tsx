@@ -16,7 +16,7 @@ export const Section2 = () => {
   const handlePerformanceReport = async (event: FormEvent) => {
     event.preventDefault(); 
     try {
-      const response = await axios.post("https://yarco.vercel.app/api/excel-reader", {
+      const response = await axios.post("localhost:3000/[locale]/api/excel-reader", {
         id: orderID,
       });
 
