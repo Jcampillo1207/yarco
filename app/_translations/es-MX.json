@@ -113,5 +113,9 @@
   "ProdsSec3": {
     "title": "Atención al cliente excepcional",
     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+  },
+
+  "ProdsSec4": {
+    "title": "Experiencia en el campo"
   }
 }

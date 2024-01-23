@@ -10,7 +10,7 @@ export const Section2 = () => {
             {t("solutions")}
         </div>
       <DynamicCard
-        href="/dry"
+        href="/prods/dry"
         className="bg-[url('/seca.jpeg')] bg-cover bg-center rounded-none"
       >
         <div className="w-full flex justify-between items-center h-fit text-white translate-y-0 lg:group-hover:-translate-y-5 duration-300 ease-out">
