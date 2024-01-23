@@ -185,6 +185,7 @@
     "prod": "Producto a enviar:",
     "pprod": "Sillas de oficina",
     "detalles": "Detalles adicionales:",
-    "pdetalles": "Quisiera recibir una cotización"
+    "pdetalles": "Quisiera recibir una cotización",
+    "button": "Enviar formulario"
   }
 }

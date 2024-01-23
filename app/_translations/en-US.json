@@ -156,7 +156,7 @@
     "datos2": "Contact information",
     "correo": "Email:",
     "pemail": "name@email.com",
-    "clave": "Clave:",
+    "clave": "Code:",
     "pclave": "+1",
     "tel": "Phone:",
     "datos3": "Departure details",
@@ -185,6 +185,7 @@
     "prod": "Product to send:",
     "pprod": "ej. Office chairs",
     "detalles": "Additional details:",
-    "pdetalles": "ej. I want to get a quote"
+    "pdetalles": "ej. I want to get a quote",
+    "button": "Send form"
   }
 }
