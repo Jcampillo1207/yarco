@@ -264,6 +264,13 @@
     "pprod": "Sillas de oficina",
     "detalles": "Detalles adicionales:",
     "pdetalles": "Quisiera recibir una cotización",
-    "button": "Enviar formulario"
+    "button": "Enviar formulario",
+    "buttonload": "Cargando..."
+  },
+
+  "Tnks": {
+    "title": "¡Gracias por contestar el formulario!",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn": "Regresar a inicio"
   }
 }

@@ -264,6 +264,13 @@
     "pprod": "ej. Office chairs",
     "detalles": "Additional details:",
     "pdetalles": "ej. I want to get a quote",
-    "button": "Send form"
+    "button": "Send form",
+    "buttonload": "Loading..."
+  },
+
+  "Tnks": {
+    "title": "Thank you for filing the form!",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn": "Back to homepage"
   }
 }

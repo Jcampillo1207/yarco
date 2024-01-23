@@ -1,4 +1,6 @@
-import { ArrowBigRight, Send } from "lucide-react";
+"use client"
+
+import { Loader, Send } from "lucide-react";
 import { TextPrimary, Title } from "../mainstyles/text";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
@@ -6,15 +8,15 @@ import { Label } from "../ui/label";
 import { Checkbox } from "../ui/checkbox";
 import { Textarea } from "../ui/textarea";
 import { useTranslations } from "next-intl";
+import { useState } from "react";
 
-interface FormProps {
-  text: string;
-  title: string;
-  type: string;
-}
+export const Form = () => {
+  const t = useTranslations("Form");
+  const [isLoading, setIsLoading] = useState(false);
 
-export const Form = ({ title, text, type }: FormProps) => {
-    const t = useTranslations("Form")
+    const handleSubmit = async (event: React.FormEvent) => {
+        setIsLoading(true);
+    };
   return (
     <section className="w-full h-fit items-start justify-start flex flex-col px-5 md:px-7 lg:px-14 gap-y-14 lg:gap-y-20">
       <div className="w-full h-fit items-center justify-center flex flex-col gap-y-4 lg:gap-y-4">
@@ -23,11 +25,17 @@ export const Form = ({ title, text, type }: FormProps) => {
       </div>
       <form
         action="https://formsubmit.co/jcampillo1207@gmail.com"
+        onSubmit={handleSubmit}
         method="POST"
         className="w-full h-fit flex flex-col items-end justify-start gap-y-4 lg:gap-y-14"
       >
         <input type="hidden" name="_template" value="table" />
         <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://yarco.vercel.app/thanks"
+        ></input>
         <div className="w-full h-fit flex flex-col items-start justify-start gap-y-10 lg:gap-y-14">
           <div className="w-full h-fit grid grid-cols-1 lg:grid-cols-2 gap-x-14 gap-y-7">
             <div className="w-full h-fit flex flex-col gap-y-7 items-start justify-start">
@@ -36,7 +44,8 @@ export const Form = ({ title, text, type }: FormProps) => {
               <div className="w-full h-fit flex flex-col lg:flex-row gap-x-4 gap-y-7">
                 <div className="flex flex-col items-start justify-start gap-y-2 w-full">
                   <Label className="truncate" htmlFor="name">
-                  {t("name")}<span className="text-destructive">*</span>
+                    {t("name")}
+                    <span className="text-destructive">*</span>
                   </Label>
                   <Input
                     type="text"
@@ -48,7 +57,8 @@ export const Form = ({ title, text, type }: FormProps) => {
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 w-full">
                   <Label className="truncate" htmlFor="last">
-                  {t("apellido")}<span className="text-destructive">*</span>
+                    {t("apellido")}
+                    <span className="text-destructive">*</span>
                   </Label>
                   <Input
                     type="text"
@@ -66,7 +76,7 @@ export const Form = ({ title, text, type }: FormProps) => {
               <div className="w-full h-fit flex flex-col lg:flex-row gap-x-4 gap-y-7">
                 <div className="flex flex-col items-start justify-start gap-y-2 w-full">
                   <Label className="truncate" htmlFor="mail">
-                  {t("correo")}
+                    {t("correo")}
                     <span className="text-destructive">*</span>
                   </Label>
                   <Input
@@ -80,7 +90,8 @@ export const Form = ({ title, text, type }: FormProps) => {
                 <div className="flex items-start justify-start gap-x-2 w-full">
                   <div className="w-1/4">
                     <Label className="truncate" htmlFor="cve">
-                    {t("clave")}<span className="text-destructive">*</span>
+                      {t("clave")}
+                      <span className="text-destructive">*</span>
                     </Label>
                     <Input
                       type="tel"
@@ -92,7 +103,8 @@ export const Form = ({ title, text, type }: FormProps) => {
                   </div>
                   <div className="w-full">
                     <Label className="truncate" htmlFor="phone">
-                    {t("tel")}<span className="text-destructive">*</span>
+                      {t("tel")}
+                      <span className="text-destructive">*</span>
                     </Label>
                     <Input
                       type="tel"
@@ -112,7 +124,10 @@ export const Form = ({ title, text, type }: FormProps) => {
               <p className="text-primary text-lg">{t("datos3")}</p>
               <div className="w-full h-fit flex flex-wrap gap-x-4 gap-y-7">
                 <div className="flex flex-col items-start justify-start gap-y-2 w-full">
-                  <Label className="truncate" htmlFor="empresa">{t("empresa")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="empresa">
+                    {t("empresa")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="text"
                     id="empresa"
@@ -122,7 +137,10 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 w-full">
-                  <Label className="truncate" htmlFor="calle">{t("calle")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="calle">
+                    {t("calle")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="text"
                     id="calle"
@@ -132,7 +150,10 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 flex-1">
-                  <Label className="truncate" htmlFor="ext">{t("numext")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="ext">
+                    {t("numext")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="text"
                     id="ext"
@@ -142,7 +163,9 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 flex-1">
-                  <Label className="truncate" htmlFor="int">{t("numint")}</Label>
+                  <Label className="truncate" htmlFor="int">
+                    {t("numint")}
+                  </Label>
                   <Input
                     type="text"
                     id="int"
@@ -151,7 +174,10 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 flex-1 min-w-[50%]">
-                  <Label className="truncate" htmlFor="postal">{t("cp")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="postal">
+                    {t("cp")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="text"
                     id="postal"
@@ -161,7 +187,10 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 flex-1 min-w-[50%]">
-                  <Label className="truncate" htmlFor="city">{t("ciudad")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="city">
+                    {t("ciudad")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="text"
                     id="city"
@@ -171,7 +200,9 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 flex-1 min-w-[50%]">
-                  <Label className="truncate" htmlFor="state">{t("Estado")}</Label>
+                  <Label className="truncate" htmlFor="state">
+                    {t("Estado")}
+                  </Label>
                   <Input
                     type="text"
                     id="state"
@@ -181,7 +212,10 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 flex-1 min-w-[50%]">
-                  <Label className="truncate" htmlFor="date">{t("fechasalida")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="date">
+                    {t("fechasalida")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="date"
                     id="date"
@@ -196,7 +230,10 @@ export const Form = ({ title, text, type }: FormProps) => {
               <p className="text-primary text-lg">{t("datos4")}</p>
               <div className="w-full h-fit flex flex-wrap gap-x-4 gap-y-7">
                 <div className="flex flex-col items-start justify-start gap-y-2 w-full">
-                  <Label className="truncate" htmlFor="calle">{t("calle2")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="calle">
+                    {t("calle2")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="text"
                     id="calledel"
@@ -206,7 +243,10 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 flex-1">
-                  <Label className="truncate" htmlFor="extdel">{t("numext2")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="extdel">
+                    {t("numext2")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="text"
                     id="extdel"
@@ -216,7 +256,9 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 flex-1">
-                  <Label className="truncate" htmlFor="int">{t("numint2")}</Label>
+                  <Label className="truncate" htmlFor="int">
+                    {t("numint2")}
+                  </Label>
                   <Input
                     type="text"
                     id="intdel"
@@ -225,7 +267,10 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 flex-1 min-w-[50%]">
-                  <Label className="truncate" htmlFor="postadel">{t("cp2")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="postadel">
+                    {t("cp2")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="text"
                     id="postaldel"
@@ -235,7 +280,10 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 flex-1 min-w-[50%]">
-                  <Label className="truncate" htmlFor="citydel">{t("ciudad2")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="citydel">
+                    {t("ciudad2")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="text"
                     id="citydel"
@@ -245,7 +293,10 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 flex-1 min-w-[50%]">
-                  <Label className="truncate" htmlFor="statedel">{t("Estado2")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="statedel">
+                    {t("Estado2")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="text"
                     id="statedel"
@@ -255,7 +306,10 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 flex-1 min-w-[50%]">
-                  <Label className="truncate" htmlFor="datedel">{t("fechasalida2")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="datedel">
+                    {t("fechasalida2")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="date"
                     id="datedel"
@@ -279,8 +333,11 @@ export const Form = ({ title, text, type }: FormProps) => {
                     name="Caja seca"
                     className="border-2 border-muted-foreground rounded-md px-3 py-1 text-sm font-regular"
                   />
-                  <Label htmlFor="caja" className="text-muted-foreground truncate">
-                  {t("serv1")}
+                  <Label
+                    htmlFor="caja"
+                    className="text-muted-foreground truncate"
+                  >
+                    {t("serv1")}
                   </Label>
                 </span>
                 <span className="w-full flex gap-x-3 items-center justify-start">
@@ -290,8 +347,11 @@ export const Form = ({ title, text, type }: FormProps) => {
                     name="Plataforma"
                     className="border-2 border-muted-foreground rounded-md px-3 py-1 text-sm font-regular"
                   />
-                  <Label htmlFor="plataforma" className="text-muted-foreground truncate">
-                  {t("serv2")}
+                  <Label
+                    htmlFor="plataforma"
+                    className="text-muted-foreground truncate"
+                  >
+                    {t("serv2")}
                   </Label>
                 </span>
                 <span className="w-full flex gap-x-3 items-center justify-start">
@@ -301,8 +361,11 @@ export const Form = ({ title, text, type }: FormProps) => {
                     name="Refrigerados"
                     className="border-2 border-muted-foreground rounded-md px-3 py-1 text-sm font-regular checked:bg-primary"
                   />
-                  <Label htmlFor="refri" className="text-muted-foreground truncate">
-                  {t("serv3")}
+                  <Label
+                    htmlFor="refri"
+                    className="text-muted-foreground truncate"
+                  >
+                    {t("serv3")}
                   </Label>
                 </span>
                 <span className="w-full flex gap-x-3 items-center justify-start">
@@ -312,8 +375,11 @@ export const Form = ({ title, text, type }: FormProps) => {
                     name="Arrastre"
                     className="border-2 border-muted-foreground rounded-md px-3 py-1 text-sm font-regular checked:bg-primary"
                   />
-                  <Label htmlFor="arrastre" className="text-muted-foreground truncate">
-                  {t("serv4")}
+                  <Label
+                    htmlFor="arrastre"
+                    className="text-muted-foreground truncate"
+                  >
+                    {t("serv4")}
                   </Label>
                 </span>
               </div>
@@ -323,7 +389,10 @@ export const Form = ({ title, text, type }: FormProps) => {
               <p className="text-transparent text-lg">d</p>
               <div className="w-full h-fit flex flex-wrap gap-x-4 gap-y-7">
                 <div className="flex flex-col items-start justify-start gap-y-2 w-full">
-                  <Label className="truncate" htmlFor="prod">{t("prod")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="prod">
+                    {t("prod")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Input
                     type="text"
                     id="prod"
@@ -333,9 +402,12 @@ export const Form = ({ title, text, type }: FormProps) => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start gap-y-2 w-full">
-                  <Label className="truncate" htmlFor="det">{t("detalles")}<span className="text-destructive">*</span></Label>
+                  <Label className="truncate" htmlFor="det">
+                    {t("detalles")}
+                    <span className="text-destructive">*</span>
+                  </Label>
                   <Textarea
-                  rows={4}
+                    rows={4}
                     id="det"
                     placeholder={t("pdetalles")}
                     name="Detalles adicionales"
@@ -349,10 +421,11 @@ export const Form = ({ title, text, type }: FormProps) => {
           type="submit"
           variant={"default"}
           size={"default"}
-          className="flex items-center gap-x-2"
+          disabled={isLoading}
+          className={`flex items-center gap-x-2 ${isLoading ? 'bg-muted-foreground hover:bg-muted-foreground cursor-wait' : 'bg-primary'}`}
         >
-          {t("button")}
-          <Send className="text-white w-4 h-4" />
+          {isLoading ? t("buttonload") : t("button")}
+          {isLoading ? <Loader className="animate-spin text-white w-4 h-4" /> : <Send className="text-white w-4 h-4" />}
         </Button>
       </form>
     </section>
