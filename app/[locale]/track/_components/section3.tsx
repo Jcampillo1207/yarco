@@ -7,7 +7,6 @@ import { useTranslations } from "next-intl";
 
 export const Section3 = ({data} : any) => {
 
-  console.log(data)
   const t = useTranslations("TrackPageSec3");
   return (
     <section className="w-full h-fit flex flex-col items-center justify-center px-5 md:px-7 lg:px-14 gap-y-10 md:gap-y-14 lg:gap-x-20">

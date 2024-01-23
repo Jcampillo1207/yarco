@@ -99,7 +99,7 @@
     "texto1": "Confiabilidad",
     "texto2": "Seguridad",
     "texto3": "Eficiencia",
-    "title": "Soluciones en envíos y logística" 
+    "title": "Soluciones en envíos y logística"
   },
 
   "ProdsSec2": {
@@ -117,5 +117,74 @@
 
   "ProdsSec4": {
     "title": "Experiencia en el campo"
+  },
+
+  "DrySection1": {
+    "title": "Caja seca",
+    "btn": "Contáctanos"
+  },
+
+  "DrySection2": {
+    "title": "Características",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis",
+    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis",
+    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis",
+    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis"
+  },
+
+  "DrySection3": {
+    "title": "Expertos en transporte",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn": "Contact us"
+  },
+
+  "DrySection4": {
+    "title": "Soluciones en caja seca",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn": "Contact us"
+  },
+
+  "Form": {
+    "title": "Obtén una cotización",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "datos1": "Datos del solicitante",
+    "name": "Nombre:",
+    "pname": "Nombre",
+    "apellido": "Apellido:",
+    "papellido": "Apellido",
+    "datos2": "Información de contacto",
+    "correo": "Correo electrónico:",
+    "pemail": "nombre@email.com",
+    "clave": "Clave:",
+    "pclave": "+52",
+    "tel": "Tel:",
+    "datos3": "Datos de salida",
+    "empresa": "Nombre de la empresa:",
+    "calle": "Calle:",
+    "numext": "Núm. ext:",
+    "numint": "Núm. int:",
+    "cp": "C.P:",
+    "ciudad": "Ciudad:",
+    "Estado": "Estado:",
+    "fechasalida": "Fecha requerida de salida:",
+    "datos4": "Datos de entrega",
+    "calle2": "Calle:",
+    "numext2": "Núm. ext:",
+    "numint2": "Núm. int:",
+    "cp2": "C.P:",
+    "ciudad2": "Ciudad:",
+    "Estado2": "Estado:",
+    "fechasalida2": "Fecha requerida de entrega:",
+    "datos5": "Información adicional",
+    "servicio": "Servicio de interés:",
+    "serv1": "Caja seca",
+    "serv2": "Plataforma",
+    "serv3": "Refrigerados",
+    "serv4": "Arrastre",
+    "prod": "Producto a enviar:",
+    "pprod": "Sillas de oficina",
+    "detalles": "Detalles adicionales:",
+    "pdetalles": "Quisiera recibir una cotización"
   }
 }

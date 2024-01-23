@@ -99,7 +99,7 @@
     "texto1": "Trustful",
     "texto2": "Secure",
     "texto3": "Efficent",
-    "title": "Shipping & logistics solutions" 
+    "title": "Shipping & logistics solutions"
   },
 
   "ProdsSec2": {
@@ -117,5 +117,74 @@
 
   "ProdsSec4": {
     "title": "Experience on the field"
+  },
+
+  "DrySection1": {
+    "title": "Dry van",
+    "btn": "Contact us"
+  },
+
+  "DrySection2": {
+    "title": "Characteristics",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+  },
+
+  "DrySection3": {
+    "title": "Experts on freight solutions",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn": "Contact us"
+  },
+
+  "DrySection4": {
+    "title": "Dry van solutions",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn": "Contact us"
+  },
+
+  "Form": {
+    "title": "Get a Quote Now",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "datos1": "Applicant's details",
+    "name": "Name:",
+    "pname": "Name",
+    "apellido": "Surname:",
+    "papellido": "Surname",
+    "datos2": "Contact information",
+    "correo": "Email:",
+    "pemail": "name@email.com",
+    "clave": "Clave:",
+    "pclave": "+1",
+    "tel": "Phone:",
+    "datos3": "Departure details",
+    "empresa": "Company name:",
+    "calle": "Street:",
+    "numext": "Ext. number:",
+    "numint": "Int. number:",
+    "cp": "Zip code:",
+    "ciudad": "City:",
+    "Estado": "State:",
+    "fechasalida": "Required departure date:",
+    "datos4": "Delivery details",
+    "calle2": "Street:",
+    "numext2": "Ext. number:",
+    "numint2": "Int. number:",
+    "cp2": "Zip code:",
+    "ciudad2": "City:",
+    "Estado2": "State:",
+    "fechasalida2": "Required delivery date:",
+    "datos5": "Additional information",
+    "servicio": "Service of interest:",
+    "serv1": "Dry box",
+    "serv2": "Platform",
+    "serv3": "Refrigerated",
+    "serv4": "Towing",
+    "prod": "Product to send:",
+    "pprod": "ej. Office chairs",
+    "detalles": "Additional details:",
+    "pdetalles": "ej. I want to get a quote"
   }
 }
