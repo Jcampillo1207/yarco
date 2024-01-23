@@ -23,7 +23,7 @@ export const Section2 = () => {
         </div>
       </DynamicCard>
       <DynamicCard
-        href="/dry"
+        href="/prods/platform"
         className="bg-[url('/plata.jpeg')] bg-cover bg-center rounded-none"
       >
         <div className="w-full flex justify-between items-center h-fit text-white translate-y-0 lg:group-hover:-translate-y-5 duration-300 ease-out">
@@ -36,7 +36,7 @@ export const Section2 = () => {
         </div>
       </DynamicCard>
       <DynamicCard
-        href="/dry"
+        href="/prods/refrigerated"
         className="bg-[url('/refri.jpeg')] bg-cover bg-center rounded-none"
       >
         <div className="w-full flex justify-between items-center h-fit text-white translate-y-0 lg:group-hover:-translate-y-5 duration-300 ease-out">
@@ -49,7 +49,7 @@ export const Section2 = () => {
         </div>
       </DynamicCard>
       <DynamicCard
-        href="/dry"
+        href="/prods/drag"
         className="bg-[url('/arrastre.jpeg')] bg-cover bg-center rounded-none"
       >
         <div className="w-full flex justify-between items-center h-fit text-white translate-y-0 lg:group-hover:-translate-y-5 duration-300 ease-out">

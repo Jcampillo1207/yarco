@@ -145,6 +145,84 @@
     "btn": "Contact us"
   },
 
+  "RefriSection1": {
+    "title": "Refrigerated",
+    "btn": "Contact us"
+  },
+
+  "RefriSection2": {
+    "title": "Characteristics",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+  },
+
+  "RefriSection3": {
+    "title": "Experts on freight solutions",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn": "Contact us"
+  },
+
+  "RefriSection4": {
+    "title": "Refrigerated solutions",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn": "Contact us"
+  },
+
+  "PlatformSection1": {
+    "title": "Platform",
+    "btn": "Contact us"
+  },
+
+  "PlatformSection2": {
+    "title": "Characteristics",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+  },
+
+  "PlatformSection3": {
+    "title": "Experts on freight solutions",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn": "Contact us"
+  },
+
+  "PlatformSection4": {
+    "title": "Platform solutions",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn": "Contact us"
+  },
+
+  "DragSection1": {
+    "title": "Drag freight",
+    "btn": "Contáctanos"
+  },
+
+  "DragSection2": {
+    "title": "Characteristics",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+  },
+
+  "DragSection3": {
+    "title": "Experts on freight solutions",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn": "Contáctanos"
+  },
+
+  "DragSection4": {
+    "title": "Drag Solutions",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn": "Contáctanos"
+  },
+
   "Form": {
     "title": "Get a Quote Now",
     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",

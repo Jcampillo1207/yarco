@@ -3,7 +3,7 @@ import { Section2 } from "../_components/section2";
 import { Section3 } from "../_components/section3";
 import { google } from 'googleapis';
 
-// export async function loader({ params }: any) {
+// async function loader({ params }: any) {
 //   const auth = new google.auth.GoogleAuth({
 //     credentials: {
 //       client_email: process.env.EMAIL,
