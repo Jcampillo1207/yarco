@@ -3,28 +3,28 @@ import { Section2 } from "../_components/section2";
 import { Section3 } from "../_components/section3";
 import { google } from 'googleapis';
 
-export async function loader({ params }: any) {
-  const auth = new google.auth.GoogleAuth({
-    credentials: {
-      client_email: process.env.EMAIL,
-      private_key: process.env.KEY!.replace(/\\n/gm, '\n'),
-    },
-    scopes: ['https://www.googleapis.com/auth/drive']
-  });
+// export async function loader({ params }: any) {
+//   const auth = new google.auth.GoogleAuth({
+//     credentials: {
+//       client_email: process.env.EMAIL,
+//       private_key: process.env.KEY!.replace(/\\n/gm, '\n'),
+//     },
+//     scopes: ['https://www.googleapis.com/auth/drive']
+//   });
 
-  const drive = google.drive({ version: 'v3', auth });
-  const fileId = process.env.DRIVE_ID;
-  const response = await drive.files.get({
-    fileId: fileId,
-    alt: 'media'
-  }, { responseType: 'json' });
+//   const drive = google.drive({ version: 'v3', auth });
+//   const fileId = process.env.DRIVE_ID;
+//   const response = await drive.files.get({
+//     fileId: fileId,
+//     alt: 'media'
+//   }, { responseType: 'json' });
 
-  return {
-    props: {
-      data: response.data
-    }
-  };
-}
+//   return {
+//     props: {
+//       data: response.data
+//     }
+//   };
+// }
 
 export default function Tracking({ data }: any) {
   console.log(data)
