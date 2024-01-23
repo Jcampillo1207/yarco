@@ -15,17 +15,7 @@ export const Section2 = () => {
   const [orderID, setOrderId] = useState<string | undefined>();
   const handlePerformanceReport = async (event: FormEvent) => {
     event.preventDefault(); 
-    try {
-      const response = await axios.post("localhost:3000/[locale]/api/excel-reader", {
-        id: orderID,
-      });
-
-      if (response.status === 400) {
-        throw new Error(response.data.message);
-      }
-    } catch (error: any) {
-      console.error("Error reading report: ", error);
-    }
+    // TODO: /track/:id
   };
 
   return (

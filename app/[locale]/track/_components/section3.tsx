@@ -5,7 +5,8 @@ import {
 import { OnTitle, TextPrimary, Title } from "@/components/mainstyles/text";
 import { useTranslations } from "next-intl";
 
-export const Section3 = () => {
+export const Section3 = ({data} : any) => {
+
   const t = useTranslations("TrackPageSec3");
   return (
     <section className="w-full h-fit flex flex-col items-center justify-center px-5 md:px-7 lg:px-14 gap-y-10 md:gap-y-14 lg:gap-x-20">
@@ -14,7 +15,7 @@ export const Section3 = () => {
         <div className="w-fit mx-auto h-fit flex flex-col items-start gap-y-0">
           <div className="w-full h-fit flex flex-col gap-y-4 items-center pb-10 lg:pb-14">
             <OnTitle>{t("title")}</OnTitle>
-            <TextPrimary className="font-bold text-xl">8123NV</TextPrimary>
+            <TextPrimary className="font-bold text-xl">{data.id}</TextPrimary>
             <OpDetails opName="Gonzalo Juárez Hernandez" opPhone="8717544123" />
           </div>
           <TrackUpdate
