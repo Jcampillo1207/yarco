@@ -5,7 +5,10 @@ import {
 import { OnTitle, TextPrimary, Title } from "@/components/mainstyles/text";
 import { useTranslations } from "next-intl";
 
-export const Section3 = ({data} : any) => {
+export const Section3 = ({ data }: any) => {
+
+
+  console.log(data.props.item)
 
   const t = useTranslations("TrackPageSec3");
   return (
@@ -16,28 +19,34 @@ export const Section3 = ({data} : any) => {
           <div className="w-full h-fit flex flex-col gap-y-4 items-center pb-10 lg:pb-14">
             <OnTitle>{t("title")}</OnTitle>
             <TextPrimary className="font-bold text-xl">{data.id}</TextPrimary>
-            <OpDetails opName="Gonzalo Juárez Hernandez" opPhone="8717544123" />
+            <OpDetails opName={data.props.item.Operador} opPhone={data.props.item["Teléfono Operador"]} />
           </div>
           <TrackUpdate
             status="pickup"
             active={false}
-            date="03/01/2024"
-            direction="Calle Mueble 12, 27102, Torreón, Coah. México"
+            date={data.props.item["Fecha Salida"]}
+            direction={data.props.item["Lugar de Salida"]}
           />
-          <TrackUpdate
-            status="onroute"
-            active={false}
-            direction="Matamoros, Coahuila, México"
-            eta="4hrs"
-            date="03/01/2024"
-          />
-          <TrackUpdate
-            status="delivered"
-            active={true}
-            direction="Margaritas 812, Durango, Dgo. México"
-            eta="4hrs"
-            date="03/01/2024"
-          />
+          {
+            data.props.item["Estatus"] == "Entregado" ?
+              <TrackUpdate
+                status="delivered"
+                active={true}
+                date={data.props.item["Fecha Salida"]}
+                direction={data.props.item["Dirección de Entrega"]}
+                eta={data.props.item["ETA"]}
+              />
+              :
+              <TrackUpdate
+                status="onroute"
+                active={false}
+                direction={data.props.item["Ubicación Actual"]}
+                eta={data.props.item["ETA"]}
+                date=""
+              />
+          }
+
+
         </div>
       </div>
     </section>
