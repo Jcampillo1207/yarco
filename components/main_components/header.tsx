@@ -52,14 +52,6 @@ export const Header = () => {
             {t("button3")}
           </Button>
           <Button
-            variant={"ghost"}
-            size={"default"}
-            onClick={() => router.push("/blog")}
-            className="text-muted-foreground text-base"
-          >
-            {t("button4")}
-          </Button>
-          <Button
             variant={"link"}
             size={"default"}
             onClick={() => router.push("/track")}
@@ -110,14 +102,6 @@ export const Header = () => {
                   className="text-muted-foreground text-base w-full justify-start"
                 >
                   {t("button3")}
-                </Button>
-                <Button
-                  variant={"ghost"}
-                  size={"default"}
-                  onClick={() => router.push("/blog")}
-                  className="text-muted-foreground text-base w-full justify-start"
-                >
-                  {t("button4")}
                 </Button>
                 <Button
                   variant={"link"}

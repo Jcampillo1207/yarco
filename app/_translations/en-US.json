@@ -37,9 +37,9 @@
 
   "HomePageSec2": {
     "title": "We understand logistics",
-    "button1": "Products and Services",
+    "button1": "Services",
     "button2": "Our team",
-    "button3": "Customer Service"
+    "button3": "Tracking"
   },
 
   "HomePageSec3": {
@@ -272,5 +272,21 @@
     "title": "Thank you for filing the form!",
     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
     "btn": "Back to homepage"
+  },
+
+  "CultureSec3": {
+    "title": "Our clients"
+  },
+
+  "AboutPageSec4": {
+    "title": "More than 20 years of experience",
+    "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn1": "Get a quote",
+    "btn2": "Know our team"
+  },
+
+  "AboutPageSec5": {
+    "title": "Proud certificate team",
+    "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
   }
 }

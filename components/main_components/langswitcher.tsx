@@ -27,7 +27,7 @@ export default function LocaleSwitcher() {
   const switchLocale = (newLocale: Locale) => {
     if (locales.includes(newLocale)) {
       // Remove the current locale from the pathname
-      const newPath = pathName.replace(/^\/[a-z]{2}-[A-Z]{2}/, `/${newLocale}`);
+      const newPath = pathName!.replace(/^\/[a-z]{2}-[A-Z]{2}/, `/${newLocale}`);
       router.push(newPath);
     }
   };

@@ -17,8 +17,8 @@ interface Props {
 }
 
 interface OpProps {
-  opName: string;
-  opPhone: string;
+  opName?: string;
+  opPhone?: string;
 }
 
 export const TrackUpdate = ({

@@ -37,9 +37,9 @@
 
   "HomePageSec2": {
     "title": "Sabemos de logística",
-    "button1": "Productos y servicios",
+    "button1": "Servicios",
     "button2": "Nuestro equipo",
-    "button3": "Atención a clientes"
+    "button3": "Rastreo"
   },
 
   "HomePageSec3": {
@@ -272,5 +272,21 @@
     "title": "¡Gracias por contestar el formulario!",
     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
     "btn": "Regresar a inicio"
+  },
+
+  "CultureSec3": {
+    "title": "Nuestros clientes"
+  },
+
+  "AboutPageSec4": {
+    "title": "Mas de 20 años de experiencia",
+    "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn1": "Obtén una cotización",
+    "btn2": "Conoce nuestro equipo"
+  },
+
+  "AboutPageSec5": {
+    "title": "Orgulloso equipo certificado",
+    "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
   }
 }
