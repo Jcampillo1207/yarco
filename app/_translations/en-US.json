@@ -292,5 +292,13 @@
 
   "AboutPageSec2": {
     "title": "Leadership team"
+  },
+
+  "AboutPageSec7": {
+    "title": "Our history"
+  },
+
+  "AboutPageSec6": {
+    "title": "Testimonials"
   }
 }

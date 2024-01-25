@@ -10,7 +10,7 @@ type Status = "pickup" | "onroute" | "delivered"; // Tipo de estado definido
 
 interface Props {
   status: Status; // Usando el tipo Status
-  date: string;
+  date?: string;
   active: boolean;
   eta?: string;
   direction?: string;

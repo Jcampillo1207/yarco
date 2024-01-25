@@ -10,7 +10,6 @@ interface DataProps {
 }
 
 export const Section3 = ({ data }: DataProps) => {
-
   const t = useTranslations("TrackPageSec3");
   return (
     <section className="w-full h-fit flex flex-col items-center justify-center px-5 md:px-7 lg:px-14 gap-y-10 md:gap-y-14 lg:gap-x-20">
@@ -33,27 +32,42 @@ export const Section3 = ({ data }: DataProps) => {
               direction={data.props.item["Lugar de Salida"]}
             />
             {data.props.item["Estatus"] == "Entregado" ? (
-              <TrackUpdate
-                status="delivered"
-                active={true}
-                date={data.props.item["Fecha Salida"]}
-                direction={data.props.item["Dirección de Entrega"]}
-                eta={data.props.item["ETA"]}
-              />
+              <>
+                <TrackUpdate
+                  status="onroute"
+                  active={false}
+                  direction={data.props.item["Ubicación Actual"]}
+                  eta={data.props.item["ETA"]}
+                />
+                <TrackUpdate
+                  status="delivered"
+                  active={true}
+                  date={data.props.item["Fecha Entrega"]}
+                  direction={data.props.item["Dirección de Entrega"]}
+                  eta={data.props.item["ETA"]}
+                />
+              </>
             ) : (
+              <>
               <TrackUpdate
-                status="onroute"
-                active={false}
-                direction={data.props.item["Ubicación Actual"]}
-                eta={data.props.item["ETA"]}
-                date=""
-              />
+                  status="onroute"
+                  active={true}
+                  direction={data.props.item["Ubicación Actual"]}
+                  eta={data.props.item["ETA"]}
+                />
+                <TrackUpdate
+                  status="delivered"
+                  active={false}
+                  date={data.props.item["Fecha Entrega"]}
+                  direction={data.props.item["Dirección de Entrega"]}
+                  eta={data.props.item["ETA"]}
+                />
+                </>
             )}
           </div>
         </div>
       ) : (
         <div>No pudimos encontrar tu número de orden</div>
-
       )}
     </section>
   );

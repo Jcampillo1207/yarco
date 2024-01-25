@@ -292,5 +292,13 @@
 
   "AboutPageSec2": {
     "title": "Equipo de líderes en la industria"
+  },
+
+  "AboutPageSec7": {
+    "title": "Nuestra historia"
+  },
+
+  "AboutPageSec6": {
+    "title": "Testimonios"
   }
 }
