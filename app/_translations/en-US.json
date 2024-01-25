@@ -288,5 +288,9 @@
   "AboutPageSec5": {
     "title": "Proud certificate team",
     "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+  },
+
+  "AboutPageSec2": {
+    "title": "Leadership team"
   }
 }
