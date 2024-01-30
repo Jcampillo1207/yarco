@@ -25,7 +25,7 @@ export const Footer = () => {
           <div className="flex gap-x-3 items-center justify-start w-fit">
             <Button variant={"outline"} size={"icon"} asChild>
               <Link
-                href={"https://www.instagram.com/quickshinemex/"}
+                href={"https://www.instagram.com/yarco.logistic/"}
                 target="_blank"
               >
                 <Instagram className="w-4 h-4 text-muted-foreground" />
@@ -33,7 +33,7 @@ export const Footer = () => {
             </Button>
             <Button variant={"outline"} size={"icon"} asChild>
               <Link
-                href={"https://www.facebook.com/quickshinemex"}
+                href={"https://www.facebook.com/yarcologistictrc"}
                 target="_blank"
               >
                 <Facebook className="w-4 h-4 text-muted-foreground" />
@@ -41,7 +41,7 @@ export const Footer = () => {
             </Button>
             <Button variant={"outline"} size={"icon"} asChild>
               <Link
-                href={"https://www.linkedin.com/company/quickshine/"}
+                href={"https://www.linkedin.com/company/yarco-logistic-sa-de-cv/"}
                 target="_blank"
               >
                 <Linkedin className="w-4 h-4 text-muted-foreground" />
@@ -54,25 +54,25 @@ export const Footer = () => {
             {t("Col1-1")}
           </h2>
           <Link
-            href={"/limpiezacomercial"}
+            href={"/prods/dry"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col1-2")}
           </Link>
           <Link
-            href={"/limpieza"}
+            href={"/prods/refrigerated"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col1-3")}
           </Link>
           <Link
-            href={"/fumigacion"}
+            href={"/prods/drag"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col1-4")}
           </Link>
           <Link
-            href={"/desinfeccion"}
+            href={"/prods/platform"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col1-5")}
@@ -81,34 +81,28 @@ export const Footer = () => {
         <span className="w-full h-fit flex flex-col col-span-1 lg:col-span-2 gap-y-4 text-muted-foreground text-sm">
           <h2 className="text-foreground text-base font-semibold">{t("Col2-1")}</h2>
           <Link
-            href={"/nosotros#sucursales"}
+            href={"/nosotros#team"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col2-2")}
           </Link>
           <Link
-            href={"/nosotros#sucursales"}
+            href={"/nosotros#history"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col2-3")}
-          </Link>
-          <Link
-            href={"/nosotros#sucursales"}
-            className="hover:underline hover:text-foreground"
-          >
-            {t("Col2-4")}
           </Link>
         </span>
         <span className="w-full h-fit flex flex-col col-span-1 lg:col-span-2 gap-y-4 text-muted-foreground text-sm">
           <h2 className="text-foreground text-base font-semibold">{t("Col3-1")}</h2>
           <Link
-            href={"mailto:hola@quickshine.com.mx"}
+            href={"mailto:"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col3-2")}
           </Link>
           <Link
-            href={"tel:8717544123"}
+            href={"tel:"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col3-3")}
@@ -117,19 +111,13 @@ export const Footer = () => {
         <span className="w-full h-fit flex flex-col col-span-1 lg:col-span-2 gap-y-4 text-muted-foreground text-sm">
           <h2 className="text-foreground text-base font-semibold">{t("Col4-1")}</h2>
           <Link
-            href={"/blog"}
+            href={"/track"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col4-2")}
           </Link>
           <Link
-            href={"/trabajo"}
-            className="hover:underline hover:text-foreground"
-          >
-            {t("Col4-3")}
-          </Link>
-          <Link
-            href={"/nosotros"}
+            href={"#"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col4-4")}

@@ -12,10 +12,7 @@ import { useTranslations } from "next-intl";
 export default function OppositeContentTimeline() {
     const t = useTranslations("AboutPageSec7")
   return (
-    <section
-      className="w-full h-fit px-5 md:px-7 lg:px-40 flex flex-col gap-y-10 lg:gap-y-20"
-      id="historia"
-    >
+    <>
       <div className="w-full flex items-center justify-center flex-col gap-y-7">
         <Title className="text-center lg:text-center">{t("title")}</Title>
       </div>
@@ -129,6 +126,6 @@ export default function OppositeContentTimeline() {
           </TimelineContent>
         </TimelineItem>
       </Timeline>
-    </section>
+    </>
   );
 }
