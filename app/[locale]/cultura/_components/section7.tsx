@@ -45,7 +45,7 @@ export const Section7 = () => {
     <section className="w-full h-fit items-center justify-center flex flex-col px-5 md:px-7 lg:px-14 xl:px-36 py-10 md:py-14 lg:py-20 xl:py-24 gap-y-10 md:gap-y-14 lg:gap-y-20">
       <div className="w-full h-fit items-center justify-center flex flex-col gap-y-4 md:gap-y-6">
         <Title className="text-3xl md:text-4xl lg:text-6xl text-primary md:text-primary lg:text-primary text-pretty">
-          Una empresa llena de historia
+          {t("title")}
         </Title>
       </div>
       <div className="w-full h-fit items-center justify-center flex">
