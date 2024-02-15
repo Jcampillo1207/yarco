@@ -30,7 +30,7 @@
   },
 
   "HomePageSec1": {
-    "title": "Llenamos nuestros camiones de confianza y entregamos con seguridad",
+    "title": "Llenamos nuestras unidades de confianza y entregamos con seguridad",
     "button1": "Contáctanos",
     "button2": "Rastrea mi orden"
   },
@@ -59,7 +59,7 @@
 
   "HomePageSec6": {
     "title": "Nuestro equipo listo y capacitado para brindar el mejor servicio",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odit corrupti quae sint ipsa ex ipsum quod laudantium eos praesentium, in magnam! Assumenda quis pariatur tenetur aliquam ea molestias asperiores.",
+    "description": "Agenda una discovery call con nuestro equipo para empezar a agilizar tu cadena de suministro, ESTAMOS ATENTOS A LAS NECESIDADES DE NUESTROS CLIENTES, DESARROLLANDO SERVICIOS DE VALOR AGREGADO Y NUEVOS MODELOS DE NEGOCIO.",
     "button": "Conoce nuestra cultura"
   },
 
@@ -116,7 +116,10 @@
   },
 
   "ProdsSec4": {
-    "title": "Experiencia en el campo"
+    "title": "Experiencia en el campo",
+    "tab1text": "Para nosotros nuestros clientes van primero, en YARCO contamos con empresas hermanas que facilitan tus procesos logisticos de manera innovadora segura y rapida. Acercate y descubre todas las posibilidades para mejorar tus procesos.",
+    "tab2text": "Para nosotros nuestros clientes van primero, en YARCO contamos con empresas hermanas que facilitan tus procesos logisticos de manera innovadora segura y rapida. Acercate y descubre todas las posibilidades para mejorar tus procesos.",
+    "tab3text": "Para nosotros nuestros clientes van primero, en YARCO contamos con empresas hermanas que facilitan tus procesos logisticos de manera innovadora segura y rapida. Acercate y descubre todas las posibilidades para mejorar tus procesos."
   },
 
   "DrySection1": {
@@ -127,22 +130,22 @@
   "DrySection2": {
     "title": "Características",
     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis",
-    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis",
-    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis",
-    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis"
+    "card1": "Servicios disponibles por aire, tierra y especializados.",
+    "card2": "Soporte al cliente disponible las 24 horas, los 7 días de la semana, a cargo de un gerente de cuenta dedicado. Cuando necesites hablar con una persona, estaremos disponibles para responder.",
+    "card3": "Tiempo de respuesta rápido para precios competitivos en el momento y en contratos, y actualizaciones de estado para carga crítica.",
+    "card4": "Acceso exclusivo a una red de transportistas de carga rápida y acelerada, lo que proporciona a los clientes una capacidad disponible extendida y confiable."
   },
 
   "DrySection3": {
     "title": "Expertos en transporte",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "btn": "Contaáctanos"
+    "text": "Hemos observado una transición gradual en la estructura de la cadena de suministro utilizada por muchas grandes corporaciones. Este cambio ha permitido que nuestros servicios florezcan. Si estás interesado en hablar con alguien, por favor sigue el enlace a continuación y alguien se pondrá en contacto contigo.",
+    "btn": "Contáctanos"
   },
 
   "DrySection4": {
     "title": "Soluciones en caja seca",
     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "btn": "Contaáctanos"
+    "btn": "Contáctanos"
   },
 
   "RefriSection1": {
@@ -153,21 +156,21 @@
   "RefriSection2": {
     "title": "Características",
     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis",
-    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis",
-    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis",
-    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis"
+    "card1": "Servicios disponibles por aire, tierra y especializados.",
+    "card2": "Soporte al cliente disponible las 24 horas, los 7 días de la semana, a cargo de un gerente de cuenta dedicado. Cuando necesites hablar con una persona, estaremos disponibles para responder.",
+    "card3": "Tiempo de respuesta rápido para precios competitivos en el momento y en contratos, y actualizaciones de estado para carga crítica.",
+    "card4": "Acceso exclusivo a una red de transportistas de carga rápida y acelerada, lo que proporciona a los clientes una capacidad disponible extendida y confiable."
   },
 
   "RefriSection3": {
     "title": "Expertos en transporte",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "Hemos observado una transición gradual en la estructura de la cadena de suministro utilizada por muchas grandes corporaciones. Este cambio ha permitido que nuestros servicios florezcan. Si estás interesado en hablar con alguien, por favor sigue el enlace a continuación y alguien se pondrá en contacto contigo.",
     "btn": "Contaáctanos"
   },
 
   "RefriSection4": {
     "title": "Soluciones en refrigerados",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "La caja refrigerada de 53 pies es ideal para mantener la temperatura de la cadena de frío, con tecnologías sustentables y amables con el medio ambiente, garantizando seguridad e innocuidad en el traslado de la, ya que están fabricadas con materiales y sistemas de primera calidad. ",
     "btn": "Contaáctanos"
   },
 
@@ -178,22 +181,24 @@
 
   "PlatformSection2": {
     "title": "Características",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+    "text": "Las plataformas son un tipo de remolque que se utiliza para transportar carga pesada, como rollos de acero, alambre, entre otros, la cual se centran en el sector industrial e ingeniería.Los camiones de plataforma se utilizan a menudo para transportar cargas de gran tamaño o productos con formas inusuales.",
+    "card1": "Tiempo de respuesta rápido para precios competitivos en el momento y en contratos, y actualizaciones de estado para carga crítica.",
+    "card2": "Servicios especializados de almacenamiento para el cruze de mercancias con destino en paises fronterizos en almacen de cadena de suministro.",
+    "card3": "Contamos con más de 20 años de experiencia en el traslado de mercancías en distintos tipos de remolque como plataformas, equipo encortinado para cualquier requerimiento. ",
+    "card4": "Acceso exclusivo a una red de transportistas de carga rápida y acelerada, lo que proporciona a los clientes una capacidad disponible extendida y confiable.",
+    "card5": "Soporte al cliente disponible las 24 horas, los 7 días de la semana, a cargo de un gerente de cuenta dedicado. Cuando necesites hablar con una persona, estaremos disponibles para responder.",
+    "card6": "Tenemos convenio de intercambio con nuestra empresa hermana RAAF Logistics LLC  para que al igual que nosotros entregar carga completa y consolidada en todo el territorio estadounidense"
   },
 
   "PlatformSection3": {
     "title": "Expertos en transporte",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "Hemos observado una transición gradual en la estructura de la cadena de suministro utilizada por muchas grandes corporaciones. Este cambio ha permitido que nuestros servicios florezcan. Si estás interesado en hablar con alguien, por favor sigue el enlace a continuación y alguien se pondrá en contacto contigo.",
     "btn": "Contáctanos"
   },
 
   "PlatformSection4": {
     "title": "Soluciones en plataforma",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "Ofrecemos plataformas de 40 y 48 pies con piso de madera y estructura reforzada en acero, con una capacidad de carga de 27 a 30 toneladas, y brindamos servicio en dos modalidades: Sencillo y Full",
     "btn": "Contáctanos"
   },
 
@@ -204,16 +209,17 @@
 
   "DragSection2": {
     "title": "Características",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+    "text": "La carga sobredimensionada o oversized load es una carga que excede los límites legales o de tamaño estándar o ordinarios para una parte específica de la carretera, autopista u otra infraestructura de transporte, se utiliza para transportar carga pesada,  la cual se centran en el sector industrial e ingeniería.",
+    "card1": "Tiempo de respuesta rápido para precios competitivos en el momento y en contratos, y actualizaciones de estado para carga crítica.",
+    "card2": "Servicios especializados de almacenamiento para el cruze de mercancias con destino en paises fronterizos en almacen de cadena de suministro.",
+    "card3": "Contamos con más de 20 años de experiencia en el traslado de mercancías en distintos tipos de remolque como plataformas, equipo encortinado para cualquier requerimiento.",
+    "card4": "Acceso exclusivo a una red de transportistas de carga rápida y acelerada, lo que proporciona a los clientes una capacidad disponible extendida y confiable.",
+    "card5": "Soporte al cliente disponible las 24 horas, los 7 días de la semana, a cargo de un gerente de cuenta dedicado. Cuando necesites hablar con una persona, estaremos disponibles para responder."
   },
 
   "DragSection3": {
     "title": "Expertos en transporte",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "Hemos observado una transición gradual en la estructura de la cadena de suministro utilizada por muchas grandes corporaciones. Este cambio ha permitido que nuestros servicios florezcan. Si estás interesado en hablar con alguien, por favor sigue el enlace a continuación y alguien se pondrá en contacto contigo.",
     "btn": "Contáctanos"
   },
 
@@ -300,5 +306,20 @@
 
   "AboutPageSec6": {
     "title": "Testimonios"
+  },
+
+  "ContactPageSec1": {
+    "title": "Estamos aquí para ayudarte",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn1": "Envíanos un mensaje",
+    "btn2": "Envíanos un correo"
+  },
+
+  "TL": {
+    "text1": "El señor Antonio Yarza Campos forma y participa en una sociedad que atendiera la operación de la patente aduanal adscrita a la aduana interior de Torreón desde 1951 constituyéndose está bajo el nombre de servicios aduanales de Torreón (S.A.T)",
+    "text2": "La S.H.CP Otorgó Antonio Yarza Campos la patente aduanal No. 621 para la aduana de Torreón con autorización para operar en las aduanas de Ciudad Juárez, Nuevo Laredo, Piedras Negras, Tampico y Altamira.",
+    "text3": "A principios de 1993 Antonio Yarza Campos renuncia su patente y la dirección general de aduanas otorga a su hija Lic. María Eugenia Yarza Rodríguez en sustitución la patente renunciada por su padre misma que opera dentro de la sociedad denominada Yarza y Cia. S. C. Por las aduanas de Ciudad Juárez,Chihuahua, Nuevo Laredo, Tampico, Altamira y Tamaulipas.",
+    "text4": "Para inicios de 1994 el Lic. Fernando Yarza Rodríguez obtiene una nueva patente aduanal que complementaría los servicios ofrecidos incluyendo las aduanas de Nuevo Laredo,  Tamaulipas,  Colombia, Nuevo León, Piedras Negras y Torreón Coahuila constituyendo una nueva sociedad bajo el nombre de Fernando Yarza y Cia S.C.",
+    "text5": "A mediados de 1996 Fernando Yarza y Cia S.C.Se integra el grupo la empresa de consultoría y gestión bajo el nombre de consultores aduanales del Norte sc y la operadora de recepción y expedición de mercancías en Texas denominada t&t forwarding services inc. Consolidándose la operación del grupo a donaldsa que cuenta con servicios personales por las aduanas mencionadas y ofrece despacho en correspondencia por las aduanas de Veracruz Manzanillo Aeropuerto Internacional de México y la fronteriza de Matamoros Tamaulipas."
   }
 }

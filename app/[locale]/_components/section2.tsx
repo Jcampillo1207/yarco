@@ -13,7 +13,7 @@ export const Section2 = () => {
       <div className="w-full h-fit grid grid-cols-1 lg:grid-cols-3 gap-x-14 gap-y-5">
         <DynamicCard
           href="/prods"
-          className="bg-[url('/truck.png')] bg-cover bg-center"
+          className="bg-[url('/Servicios.png')] bg-cover bg-center"
         >
           <div className="w-full flex justify-between items-center h-fit text-white translate-y-0 lg:group-hover:-translate-y-5 duration-300 ease-out">
             <h3 className="text-xl md:text-2xl lg:text-3xl max-w-[50%] font-bold">
@@ -26,7 +26,7 @@ export const Section2 = () => {
         </DynamicCard>
         <DynamicCard
           href="/cultura"
-          className="bg-[url('/team.png')] bg-cover bg-center"
+          className="bg-[url('/Equipo.png')] bg-cover bg-center"
         >
           <div className="w-full flex justify-between items-center h-fit text-white translate-y-0 lg:group-hover:-translate-y-5 duration-300 ease-out">
             <h3 className="text-xl md:text-2xl lg:text-3xl max-w-[50%] font-bold">
@@ -39,7 +39,7 @@ export const Section2 = () => {
         </DynamicCard>
         <DynamicCard
           href="/track"
-          className="bg-[url('/call.png')] bg-cover bg-center"
+          className="bg-[url('/Rastreo.png')] bg-cover bg-center"
         >
           <div className="w-full flex justify-between items-center h-fit text-white translate-y-0 lg:group-hover:-translate-y-5 duration-300 ease-out">
             <h3 className="text-xl md:text-2xl lg:text-3xl max-w-[50%] font-bold">

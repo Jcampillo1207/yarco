@@ -9,9 +9,9 @@ interface PropCharCard {
 
 export const CharCard = ({children, text, className}: PropCharCard) => {
   return (
-    <div className={cn("w-full h-[300px] bg-white border flex flex-col items-center justify-start py-14 px-20 border-muted gap-y-4", className)}>
+    <div className={cn("w-full h-[350px] bg-white border flex flex-col items-center justify-start py-14 px-20 border-muted gap-y-4", className)}>
       {children}
-      <OnText className="text-center lg:text-center line-clamp-3">
+      <OnText className="text-center lg:text-center line-clamp-5 max-w-2xl">
        {text}
       </OnText>
     </div>

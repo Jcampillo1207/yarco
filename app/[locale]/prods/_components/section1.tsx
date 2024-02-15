@@ -19,7 +19,7 @@ export const Section1 = () => {
   }, [index]);
 
   return (
-    <section className="w-full h-fit flex items-center justify-center px-5 md:px-7 lg:px-14 py-24 md:py-32 lg:py-40 flex-col gap-y-5 bg-[url('/road.jpeg')] bg-center relative bg-cover">
+    <section className="w-full h-fit flex items-center justify-center px-5 md:px-7 lg:px-14 py-24 md:py-32 lg:py-40 flex-col gap-y-5 bg-[url('/banner3.png')] bg-center relative bg-cover">
       <div className="w-full h-full absolute bg-black/25 z-0 backdrop-blur-sm">
 
       </div>

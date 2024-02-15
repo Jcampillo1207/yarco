@@ -1,131 +1,79 @@
-import * as React from "react";
-import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
-import TimelineConnector from "@mui/lab/TimelineConnector";
-import TimelineContent from "@mui/lab/TimelineContent";
-import TimelineDot from "@mui/lab/TimelineDot";
-import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
+
 import { Title } from "@/components/mainstyles/text";
+import { Circle } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-export default function OppositeContentTimeline() {
-    const t = useTranslations("AboutPageSec7")
-  return (
-    <>
-      <div className="w-full flex items-center justify-center flex-col gap-y-7">
-        <Title className="text-center lg:text-center">{t("title")}</Title>
-      </div>
-      <Timeline position="alternate">
-        <TimelineItem className="hidden">
-          <TimelineOppositeContent className="text-primary text-lg md:text-xl font-bold">
-            2002
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot className="bg-primary" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent className=" text-lg font-normal">
-            Acontecimiento
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent className="text-primary text-lg md:text-xl font-bold">
-            2006
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot className="bg-primary" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent className="text-lg font-normal">
-            Acontecimiento
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent className="text-primary text-lg md:text-xl font-bold">
-            2010
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot className="bg-primary" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent className="text-lg font-normal">
-            Acontecimiento
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent className="text-primary text-lg md:text-xl font-bold">
-            2013
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot className="bg-primary" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent className="text-lg font-normal">
-            Acontecimiento
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent className="text-primary text-lg md:text-xl font-bold">
-            2015
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot className="bg-primary" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent className=" text-lg font-normal">
-            Acontecimiento
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent className="text-primary text-lg md:text-xl font-bold">
-            2016
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot className="bg-primary" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent className="text-lg font-normal">
-            Acontecimiento
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent className="text-primary text-lg md:text-xl font-bold">
-            2020
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot className="bg-primary" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent className="text-lg font-normal">
-            Acontecimiento
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent className="text-primary text-lg md:text-xl font-bold">
-            2021
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot className="bg-primary" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent className="text-lg font-normal">
-            Acontecimiento
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent className="text-primary text-lg md:text-xl font-bold">
-            2022
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot className="bg-primary" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent className=" text-lg font-normal">
-            Acontecimiento
-          </TimelineContent>
-        </TimelineItem>
-      </Timeline>
-    </>
-  );
+interface HistoryEntry {
+  key: string;
+  date: string;
+  text: string;
 }
+
+export const Section7 = () => {
+
+  const t = useTranslations("TL")
+
+  const Historia: HistoryEntry[] = [
+    {
+      key: "1",
+      date: "1958",
+      text: t("text1")
+    },
+    {
+      key: "2",
+      date: "1980",
+      text: t("text2")
+    },
+    {
+      key: "3",
+      date: "1993",
+      text: t("text3")
+    },
+    {
+      key: "4",
+      date: "1994",
+      text: t("text4")
+    },
+    {
+      key: "5",
+      date: "1996",
+      text: t("text5")
+    },
+  ]
+
+  return (
+    <section className="w-full h-fit items-center justify-center flex flex-col px-5 md:px-7 lg:px-14 xl:px-36 py-10 md:py-14 lg:py-20 xl:py-24 gap-y-10 md:gap-y-14 lg:gap-y-20">
+      <div className="w-full h-fit items-center justify-center flex flex-col gap-y-4 md:gap-y-6">
+        <Title className="text-3xl md:text-4xl lg:text-6xl text-primary md:text-primary lg:text-primary text-pretty">
+          Una empresa llena de historia
+        </Title>
+      </div>
+      <div className="w-full h-fit items-center justify-center flex">
+        <div className="w-fit mx-auto max-w-full h-fit items-start justify-start flex flex-col gap-y-5">
+          {Historia.map((label: any) => {
+            return (
+              <div
+                key={label.key}
+                className="w-fit items-start justify-start flex gap-x-2 md:gap-x-10 max-w-3xl min-h-[150px] h-fit"
+              >
+                <div className="w-5 h-full flex-grow flex flex-col items-center justify-center">
+                  <Circle className="text-primary w-6 h-6 fill-primary">
+                  </Circle>
+                  <div className="w-[2px] h-32 min-h-full bg-primary"></div>
+                </div>
+                <div className="w-fit h-fit items-start justify-start flex flex-col gap-y-4 pb-14">
+                  <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-foreground underline decoration-primary decoration-dotted underline-offset-4">
+                    {label.date}
+                  </h3>
+                  <p className="text-sm md:text-base text-muted-foreground lg:text-lg font-light">
+                    {label.text}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+};

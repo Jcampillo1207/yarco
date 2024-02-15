@@ -9,7 +9,7 @@ export const Section6 = () => {
     <section className="w-full h-fit items-stretch justify-start px-5 md:px-7 lg:px-14 grid grid-cols-1 lg:grid-cols-2 gap-y-7 gap-x-7">
       <div className="w-full h-[450px] flex items-end justify-center relative">
         <Image
-          src={"/person.png"}
+          src={"/single.png"}
           fill
           className="object-contain h-full"
           alt="Imagen Persona"

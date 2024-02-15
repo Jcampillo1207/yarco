@@ -21,7 +21,6 @@ export const Form = () => {
     <section className="w-full h-fit items-start justify-start flex flex-col px-5 md:px-7 lg:px-14 gap-y-14 lg:gap-y-20">
       <div className="w-full h-fit items-center justify-center flex flex-col gap-y-4 lg:gap-y-4">
         <Title>{t("title")}</Title>
-        <TextPrimary>{t("text")}</TextPrimary>
       </div>
       <form
         action="https://formsubmit.co/jcampillo1207@gmail.com"

@@ -1,6 +1,6 @@
 import { CharCard } from "@/components/main_components/characcard";
 import { DynamicSection3 } from "@/components/main_components/plantSections";
-import { Truck } from "lucide-react";
+import { CalendarRange, Clock, Container, Forklift, Globe, Headphones, Truck, Warehouse } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export const Section3 = () => {
@@ -8,41 +8,41 @@ export const Section3 = () => {
   return (
     <DynamicSection3 title={t("title")} text={t("text")}>
       <CharCard text={t("card1")}>
-        <Truck
+        <Clock
           className="w-auto h-20 min-h-[60px] text-primary"
-          strokeWidth={1}
+          strokeWidth={1.5}
         />
       </CharCard>
       <CharCard text={t("card2")}>
-        <Truck
+        <Forklift
           className="w-auto h-20 min-h-[60px] text-primary"
-          strokeWidth={1}
+          strokeWidth={1.5}
         />
       </CharCard>
       <CharCard text={t("card3")}>
-        <Truck
+        <CalendarRange
           className="w-auto h-20 min-h-[60px] text-primary"
-          strokeWidth={1}
+          strokeWidth={1.5}
         />
       </CharCard>
-      <CharCard text={t("card3")}>
-        <Truck
+      <CharCard text={t("card4")}>
+        <Globe
           className="w-auto h-20 min-h-[60px] text-primary"
-          strokeWidth={1}
+          strokeWidth={1.5}
         />
       </CharCard>
-      <CharCard text={t("card3")}>
-        <Truck
+      <CharCard text={t("card5")}>
+        <Headphones
           className="w-auto h-20 min-h-[60px] text-primary"
-          strokeWidth={1}
+          strokeWidth={1.5}
         />
       </CharCard>
       <CharCard
-        text={t("card4")}
+        text={t("card6")}
       >
-        <Truck
+        <Container
           className="w-auto h-20 min-h-[60px] text-primary"
-          strokeWidth={1}
+          strokeWidth={1.5}
         />
       </CharCard>
     </DynamicSection3>

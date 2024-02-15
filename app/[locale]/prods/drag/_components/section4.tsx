@@ -7,7 +7,7 @@ export const Section4 = () => {
     <DynamicSectionBG
       title={t("title")}
       text={t("text")}
-      imagen="/truck.png"
+      imagen="/drag.png"
       hrefer="/contacto"
       btntext={t("btn")}
     ></DynamicSectionBG>

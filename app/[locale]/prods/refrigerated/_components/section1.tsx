@@ -7,7 +7,7 @@ export const Section1 = () => {
     <DynamicSection
       title={t("title")}
       text={t("text")}
-      imagen="/truck.png"
+      imagen="/trucker.png"
       hrefer="/contacto"
       btntext={t("btn")}
     ></DynamicSection>

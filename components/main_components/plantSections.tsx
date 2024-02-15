@@ -98,7 +98,7 @@ export const DynamicSection2 = ({
     >
       <div className="w-full h-full z-0 absolute flex items-center justify-center overflow-hidden">
         <div className="w-full h-full absolute z-[1] bg-black opacity-40"></div>
-        <img src={imagen} alt="Imagen" className="object-cover w-full" />
+        <img src={imagen} alt="Imagen" className="object-cover w-full h-full" />
       </div>
       <div className="w-full h-fit flex flex-col gap-y-4 items-center justify-center z-10">
         <Title className="text-white text-6xl md:text-7xl lg:text-8xl">

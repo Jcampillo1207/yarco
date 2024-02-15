@@ -38,7 +38,7 @@ export const Section4 = () => {
         </div>
       </div>
       <div className="w-full h-[400px] relative rounded-lg overflow-hidden flex items-center justify-center">
-        <Image src={"/truck.png"} alt="Truck Image" fill objectFit="cover" />
+        <Image src={"/banner2.png"} alt="Truck Image" fill objectFit="cover" />
       </div>
     </section>
   );

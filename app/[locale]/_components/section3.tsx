@@ -22,8 +22,8 @@ export const Section3 = () => {
           turpis a condimentum vitae.
         </TextPrimary>
       </div>
-      <div className="w-full h-[200px] md:h-[200px] lg:h-[300px] xl:h-[350px] flex items-center justify-center relative">
-        <Image src={"/trucks.png"} alt="Image" fill className="object-contain w-full"/>
+      <div className="w-full h-[200px] md:h-[200px] lg:h-[300px] xl:h-[350px] flex items-center justify-center relative overflow-hidden rounded-2xl">
+        <Image src={"/Foto.png"} alt="Image" fill className="object-cover w-full"/>
       </div>
     </section>
   );

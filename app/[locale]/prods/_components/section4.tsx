@@ -39,19 +39,18 @@ export const Section4 = () => {
           <div className="col-span-1 lg:col-span-9 items-center justify-center">
             <TabsContent value="emp1">
               <div className="w-full h-full flex flex-col items-center justify-center gap-y-10 lg:px-32">
-                <div className="w-full h-[60%] rounded-lg relative overflow-hidden">
+                <div className="w-full h-[60%] rounded-xl relative overflow-hidden">
                   <Image
-                    src={"/cargo.avif"}
+                    src={"/expertise.png"}
+                    quality={100}
+                    loading="lazy"
                     alt="Hola"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <p className="lg:max-w-xl text-center">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Autem quae quos magni amet saepe! Delectus aspernatur suscipit
-                  sunt voluptatibus consequatur quidem, facere accusamus saepe
-                  nobis culpa. Repellendus corporis aperiam quaerat.
+                  {t("tab1text")}
                 </p>
               </div>
             </TabsContent>
@@ -59,17 +58,16 @@ export const Section4 = () => {
               <div className="w-full h-full flex flex-col items-center justify-center gap-y-10 lg:px-32">
                 <div className="w-full h-[60%] rounded-lg relative overflow-hidden">
                   <Image
-                    src={"/truck.png"}
+                    src={"/trucker.png"}
+                    quality={100}
+                    loading="lazy"
                     alt="Hola"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <p className="lg:max-w-xl text-center">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Autem quae quos magni amet saepe! Delectus aspernatur suscipit
-                  sunt voluptatibus consequatur quidem, facere accusamus saepe
-                  nobis culpa. Repellendus corporis aperiam quaerat.
+                  {t("tab2text")}
                 </p>
               </div>
             </TabsContent>
@@ -78,16 +76,15 @@ export const Section4 = () => {
                 <div className="w-full h-[60%] rounded-lg relative overflow-hidden">
                   <Image
                     src={"/seca.jpeg"}
+                    quality={100}
+                    loading="lazy"
                     alt="Hola"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <p className="lg:max-w-xl text-center">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Autem quae quos magni amet saepe! Delectus aspernatur suscipit
-                  sunt voluptatibus consequatur quidem, facere accusamus saepe
-                  nobis culpa. Repellendus corporis aperiam quaerat.
+                  {t("tab3text")}
                 </p>
               </div>
             </TabsContent>

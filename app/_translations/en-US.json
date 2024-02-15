@@ -30,7 +30,7 @@
   },
 
   "HomePageSec1": {
-    "title": "We fill our trusty trucks and deliver with safety",
+    "title": "We fill our trusted units and deliver with safety.",
     "button1": "Contact US",
     "button2": "Track my order"
   },
@@ -116,7 +116,10 @@
   },
 
   "ProdsSec4": {
-    "title": "Experience on the field"
+    "title": "Experience on the field",
+    "tab1text": "For us, our customers come first. At YARCO, we have sister companies that innovate to facilitate your logistics processes in a safe and fast manner. Get closer and discover all the possibilities to improve your processes.",
+    "tab2text": "For us, our customers come first. At YARCO, we have sister companies that innovate to facilitate your logistics processes in a safe and fast manner. Get closer and discover all the possibilities to improve your processes.",
+    "tab3text": "For us, our customers come first. At YARCO, we have sister companies that innovate to facilitate your logistics processes in a safe and fast manner. Get closer and discover all the possibilities to improve your processes."
   },
 
   "DrySection1": {
@@ -126,16 +129,16 @@
 
   "DrySection2": {
     "title": "Characteristics",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+    "text": "Services available by air, land, and specialized.",
+    "card1": "Services available by air, land, and specialized.",
+    "card2": "Customer support available 24/7, managed by a dedicated account manager. When you need to speak with someone, we'll be available to respond.",
+    "card3": "Quick response time for competitive pricing on-the-spot and in contracts, along with status updates for critical cargo.",
+    "card4": "Exclusive access to a network of expedited freight carriers, providing customers with extended and reliable available capacity."
   },
 
   "DrySection3": {
     "title": "Experts on freight solutions",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "We have observed a gradual transition in the structure of the supply chain used by many large corporations. This change has allowed our services to flourish. If you are interested in speaking with someone, please follow the link below and someone will contact you.",
     "btn": "Contact us"
   },
 
@@ -153,21 +156,21 @@
   "RefriSection2": {
     "title": "Characteristics",
     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+    "card1": "Services available by air, land, and specialized means.",
+    "card2": "Customer support available 24/7, 365 days a year, managed by a dedicated account manager. When you need to speak with someone, we'll be available to assist.",
+    "card3": "Quick response time for competitive pricing on spot and contract rates, along with real-time status updates for critical shipments.",
+    "card4": "Exclusive access to a network of expedited freight carriers, providing clients with extended and reliable capacity availability."
   },
 
   "RefriSection3": {
     "title": "Experts on freight solutions",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "We have observed a gradual transition in the structure of the supply chain used by many large corporations. This change has allowed our services to flourish. If you are interested in speaking with someone, please follow the link below and someone will contact you.",
     "btn": "Contact us"
   },
 
   "RefriSection4": {
     "title": "Refrigerated solutions",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "La caja refrigerada de 53 pies es perfecta para mantener la temperatura de la cadena de frío, con tecnologías sostenibles y respetuosas con el medio ambiente, garantizando seguridad e inocuidad en el transporte de la carga, ya que están fabricadas con materiales y sistemas de alta calidad.",
     "btn": "Contact us"
   },
 
@@ -179,48 +182,51 @@
   "PlatformSection2": {
     "title": "Characteristics",
     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+    "card1": "Quick response time for competitive pricing both instantly and in contracts, along with status updates for critical cargo.",
+    "card2": "Specialized storage services for goods crossing destined for bordering countries in supply chain warehouse storage.",
+    "card3": "We have over 20 years of experience in transporting goods using various types of trailers such as flatbeds, curtain-sided equipment for any requirement.",
+    "card4": "Exclusive access to a network of rapid and expedited freight carriers, providing customers with extended and reliable available capacity.",
+    "card5": "Customer support available 24/7, 7 days a week, managed by a dedicated account manager. When you need to speak with a person, we'll be available to respond.",
+    "card6": "We have an exchange agreement with our sister company, RAAF Logistics LLC, to deliver both full and consolidated cargo across the entire territory of the United States, just like us."
   },
 
   "PlatformSection3": {
     "title": "Experts on freight solutions",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "We have observed a gradual transition in the structure of the supply chain used by many large corporations. This change has allowed our services to flourish. If you are interested in speaking with someone, please follow the link below and someone will contact you.",
     "btn": "Contact us"
   },
 
   "PlatformSection4": {
     "title": "Platform solutions",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "We offer 40 and 48-foot platforms with wooden floors and steel-reinforced structure, capable of carrying loads from 27 to 30 tons. Our services are provided in two modalities: Single and Full.",
     "btn": "Contact us"
   },
 
   "DragSection1": {
     "title": "Drag freight",
-    "btn": "Contáctanos"
+    "btn": "Contact us"
   },
 
   "DragSection2": {
     "title": "Characteristics",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "card4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+    "text": "An oversized load, also known as a carga sobredimensionada in Spanish, refers to a load that exceeds legal or standard size limits for a specific part of the roadway, highway, or other transportation infrastructure. These loads are typically used to transport heavy cargo and are common in the industrial and engineering sectors.",
+    "card1": "We are committed to providing a quick response time to offer competitive prices both instantly and in long-term contracts. Additionally, we provide timely status updates for critical shipments, ensuring efficient and reliable management of your deliveries.",
+    "card2": "Specialized storage services are provided for the transit of goods destined for bordering countries in supply chain warehouses.",
+    "card3": "We have over 20 years of experience in transporting goods using various types of trailers such as flatbeds and curtain-sided equipment to meet any requirement.",
+    "card4": "Exclusive access to a network of expedited freight carriers provides customers with extended and reliable available capacity.",
+    "card5": "Customer support available 24/7, 365 days a year, managed by a dedicated account manager. When you need to speak with someone, we'll be available to assist you."
   },
 
   "DragSection3": {
     "title": "Experts on freight solutions",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "btn": "Contáctanos"
+    "text": "We have observed a gradual transition in the structure of the supply chain used by many large corporations. This change has allowed our services to flourish. If you are interested in speaking with someone, please follow the link below and someone will contact you.",
+    "btn": "Contact us"
   },
 
   "DragSection4": {
     "title": "Drag Solutions",
     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
-    "btn": "Contáctanos"
+    "btn": "Contact us"
   },
 
   "Form": {
@@ -300,5 +306,20 @@
 
   "AboutPageSec6": {
     "title": "Testimonials"
+  },
+
+  "ContactPageSec1": {
+    "title": "We are here to help you",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "btn1": "Send us a message",
+    "btn2": "Send us a mail"
+  },
+
+  "TL": {
+    "text1": "Mr. Antonio Yarza Campos founded and participated in a company that managed the operation of the customs patent attached to the internal customs of Torreón since 1951. This company was established under the name Servicios Aduanales de Torreón (S.A.T).",
+    "text2": "The S.H.CP granted Antonio Yarza Campos customs patent No. 621 for the customs of Torreón, with authorization to operate in the customs of Ciudad Juárez, Nuevo Laredo, Piedras Negras, Tampico, and Altamira.",
+    "text3": "In early 1993, Antonio Yarza Campos resigned his patent, and the General Customs Directorate granted his daughter, Lic. María Eugenia Yarza Rodríguez, the patent in substitution for the one resigned by her father. This patent operates within the company called Yarza y Cia. S. C. for the customs of Ciudad Juárez, Chihuahua, Nuevo Laredo, Tampico, Altamira, and Tamaulipas.",
+    "text4": "In early 1994, Lic. Fernando Yarza Rodríguez obtained a new customs patent that would complement the services offered, including the customs of Nuevo Laredo, Tamaulipas, Colombia, Nuevo León, Piedras Negras, and Torreón, Coahuila. This led to the establishment of a new company named Fernando Yarza y Cia S.C.",
+    "text5": "In mid-1996, Fernando Yarza y Cia S.C. integrated the consulting and management company named Consultores Aduanales del Norte SC, as well as the goods reception and dispatch operator in Texas known as T&T Forwarding Services Inc. This consolidation of the group's operations led to the creation of Donaldsa, which provides personal services for the aforementioned customs and offers clearance services through the customs of Veracruz, Manzanillo, the Mexico International Airport, and the border customs of Matamoros, Tamaulipas."
   }
 }
