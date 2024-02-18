@@ -15,7 +15,7 @@ export const Footer = () => {
         <span className="w-full h-fit col-span-2 lg:col-span-4 flex flex-row lg:flex-col gap-y-4 justify-between">
           <div className="h-14 aspect-video py-3">
             <Link
-              href={"https://www.humangroup.com.mx/"}
+              href={"/"}
               target="_blank"
               className="relative h-full"
             >
@@ -81,13 +81,13 @@ export const Footer = () => {
         <span className="w-full h-fit flex flex-col col-span-1 lg:col-span-2 gap-y-4 text-muted-foreground text-sm">
           <h2 className="text-foreground text-base font-semibold">{t("Col2-1")}</h2>
           <Link
-            href={"/nosotros#team"}
+            href={"/cultura"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col2-2")}
           </Link>
           <Link
-            href={"/nosotros#history"}
+            href={"/cultura"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col2-3")}

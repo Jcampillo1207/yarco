@@ -15,7 +15,7 @@ export const Section6 = () => {
           alt="Imagen Persona"
         />
       </div>
-      <div className="w-full h-full flex flex-col justify-between items-center lg:items-start py-0 lg:py-10 gap-y-10">
+      <div className="w-full h-full max-h-[450px] flex flex-col justify-between items-center lg:items-start py-0 lg:py-10 gap-y-10">
         <div className="w-full h-fit gap-y-5 flex flex-col">
           <Title className="text-center lg:text-start">{t("title")}</Title>
           <TextPrimary className="text-center lg:text-start font-medium">

@@ -11,7 +11,7 @@ export const Section4 = () => {
   const t = useTranslations("HomePageSec4");
   return (
     <section className="w-full h-fit items-stretch justify-start px-5 md:px-7 lg:px-14 gap-y-14 lg:gap-y-20 grid grid-cols-1 md:grid-cols-2 md:gap-x-10 lg:gap-x-20 bg-[#393939] py-10 md:py-20">
-      <div className="w-full h-full flex items-center md:items-start justify-between flex-col gap-y-14">
+      <div className="w-full h-full max-h-[400px] flex items-center md:items-start justify-between flex-col gap-y-14">
         <div className="w-full h-fit items-start justify-start flex flex-col gap-y-5 md:gap-y-10">
           <Title className="text-center md:text-start text-white">
             {t("title")}

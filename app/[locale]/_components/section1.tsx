@@ -22,7 +22,7 @@ export const Section1 = () => {
             <Link href={"/contacto"}>{t("button1")}</Link>
           </Button>
           <Button variant={"secondary"} size={"default"} asChild>
-            <Link href={"/contacto"}>{t("button2")}</Link>
+            <Link href={"/track"}>{t("button2")}</Link>
           </Button>
         </div>
       </div>
