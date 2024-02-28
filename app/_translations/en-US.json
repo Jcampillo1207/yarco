@@ -43,7 +43,8 @@
   },
 
   "HomePageSec3": {
-    "title": "We trust in the quality of our processes"
+    "title": "We trust in the quality of our processes",
+    "text": "At Yarco, quality is at the core of our mission, reflected in the exceptional nature of our logistics and transportation processes. We take pride in ensuring comprehensive solutions that consistently exceed expectations, secured through the implementation of advanced technologies and the meticulous selection of resources. Our strategic access and operation points, both nationally and internationally, allow us to offer an unparalleled service, reaffirming our commitment to efficiency and safety."
   },
 
   "HomePageSec4": {
@@ -54,7 +55,8 @@
   },
 
   "HomePageSec5": {
-    "title": "Why YARCO?"
+    "title": "Why YARCO?",
+    "text": "With over 20 years of experience in the transportation and logistics industry, we have perfected our approach to delivering efficient and reliable solutions that meet the specific needs of our clients. We understand that no two businesses are alike. That's why we offer customized logistics solutions, tailored to the unique needs of each client, ensuring that every shipment is handled with the care and attention it deserves."
   },
 
   "HomePageSec6": {
@@ -81,9 +83,9 @@
   },
 
   "TrackingStatus": {
-    "Salida": "Exit from:",
-    "Ruta": "Direction:",
-    "Entrega": "Delivered at:",
+    "Salida": "Departure:",
+    "Ruta": "Current location:",
+    "Entrega": "Address:",
     "Fecha": "Date:",
     "pickup": "PickUp",
     "onroute": "On Route",
@@ -112,12 +114,12 @@
 
   "ProdsSec3": {
     "title": "Excepcional customer service",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+    "text": "At Yarco, we understand that excellence in customer service is as crucial as the quality of our logistics services. Our dedicated team of professionals is committed to providing personalized attention, ensuring that each interaction is efficient, informative, and tailored to the unique needs of our clients. We prioritize clear and constant communication, keeping you informed at every stage of the transport process. Our proactive approach to problem-solving ensures that any challenge is handled swiftly and professionally, demonstrating our unwavering commitment to your satisfaction."
   },
 
   "ProdsSec4": {
     "title": "Experience on the field",
-    "tab1text": "For us, our customers come first. At YARCO, we have sister companies that innovate to facilitate your logistics processes in a safe and fast manner. Get closer and discover all the possibilities to improve your processes.",
+    "tab1text": "Luis Campos - Yarco is a results-oriented company, such as the timely delivery of its units. Working with them is a great contribution to the agility of our supply chain. Company - Milwaukee Tools",
     "tab2text": "For us, our customers come first. At YARCO, we have sister companies that innovate to facilitate your logistics processes in a safe and fast manner. Get closer and discover all the possibilities to improve your processes.",
     "tab3text": "For us, our customers come first. At YARCO, we have sister companies that innovate to facilitate your logistics processes in a safe and fast manner. Get closer and discover all the possibilities to improve your processes."
   },
@@ -170,7 +172,7 @@
 
   "RefriSection4": {
     "title": "Refrigerated solutions",
-    "text": "La caja refrigerada de 53 pies es perfecta para mantener la temperatura de la cadena de frío, con tecnologías sostenibles y respetuosas con el medio ambiente, garantizando seguridad e inocuidad en el transporte de la carga, ya que están fabricadas con materiales y sistemas de alta calidad.",
+    "text": "The 53-foot refrigerated container is perfect for maintaining the cold chain temperature, with sustainable and environmentally friendly technologies, ensuring safety and harmlessness in the transport of the load, as they are made with high-quality materials and systems.",
     "btn": "Contact us"
   },
 
@@ -286,14 +288,14 @@
 
   "AboutPageSec4": {
     "title": "More than 20 years of experience",
-    "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
     "btn1": "Get a quote",
     "btn2": "Know our team"
   },
 
   "AboutPageSec5": {
     "title": "Proud certificate team",
-    "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+    "text": "For YARCO, it is a commitment to provide a quality service in transportation and logistics that fully meets the requirements and needs of clients and stakeholders, seeking the well-being and development of its associates, complying with the applicable requirements in road safety, promoting activities for the prevention of accidents and incidents in public roads, ensuring the proper use of vehicles, certifying the processes of goods transportation, supporting the technical competencies of the staff and technology, to continuously improve the quality and road safety management system."
   },
 
   "AboutPageSec2": {

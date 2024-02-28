@@ -116,15 +116,13 @@ interface op3 {
   children: React.ReactNode;
   className?: string;
   title: string;
-  text: string;
 }
 
-export const DynamicSection3 = ({ className, children, title, text }: op3) => {
+export const DynamicSection3 = ({ className, children, title }: op3) => {
   return (
-    <section className="w-full h-fit flex flex-col gap-x-14 gap-y-10 px-5 md:px-7 lg:px-14 relative">
+    <section className={cn("w-full h-fit flex flex-col gap-x-14 gap-y-10 px-5 md:px-7 lg:px-14 relative py-10", className)}>
       <div className="w-full h-fit flex flex-col items-center justify-center gap-y-4 lg:gap-y-7">
         <Title>{title}</Title>
-        <TextPrimary>{text}</TextPrimary>
       </div>
       <div
         className={cn(

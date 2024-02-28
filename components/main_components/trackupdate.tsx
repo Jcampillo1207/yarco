@@ -42,11 +42,11 @@ export const TrackUpdate = ({
           ></div>
           {status !== "delivered" ? (
             <div
-            className={cn(
-              "w-1 h-full min-h-[180px]",
-              active ? "bg-primary" : "bg-gray-300"
-            )}
-          ></div>
+              className={cn(
+                "w-1 h-full min-h-[180px]",
+                active ? "bg-primary" : "bg-gray-300"
+              )}
+            ></div>
           ) : (
             <div className="hidden"></div>
           )}
@@ -74,14 +74,24 @@ export const TrackUpdate = ({
             )}
           </TrackTitle>
           {status === "pickup" ? (
-            <TrackText
-              className={cn(
-                "flex flex-col gap-y-1",
-                active ? "text-black" : "text-muted-foreground"
-              )}
-            >
-              <span className="font-bold">{t("Salida")}</span> {direction}
-            </TrackText>
+            <>
+              <TrackText
+                className={cn(
+                  "flex flex-col gap-y-1",
+                  active ? "text-black" : "text-muted-foreground"
+                )}
+              >
+                <span className="font-bold">{t("Salida")}</span> {direction}
+              </TrackText>
+              <TrackText
+                className={cn(
+                  "flex flex-col gap-y-1",
+                  active ? "text-black" : "text-muted-foreground"
+                )}
+              >
+                <span className="font-bold">{t("Fecha")}</span> {date}
+              </TrackText>
+            </>
           ) : status === "onroute" ? (
             <TrackText
               className={cn(
@@ -92,23 +102,25 @@ export const TrackUpdate = ({
               <span className="font-bold">{t("Ruta")}</span> {direction}
             </TrackText>
           ) : (
-            <TrackText
-              className={cn(
-                "flex flex-col gap-y-1",
-                active ? "text-black" : "text-muted-foreground"
-              )}
-            >
-              <span className="font-bold">{t("Entrega")}</span> {direction}
-            </TrackText>
+            <>
+              <TrackText
+                className={cn(
+                  "flex flex-col gap-y-1",
+                  active ? "text-black" : "text-muted-foreground"
+                )}
+              >
+                <span className="font-bold">{t("Entrega")}</span> {direction}
+              </TrackText>
+              <TrackText
+                className={cn(
+                  "flex flex-col gap-y-1",
+                  active ? "text-black" : "text-muted-foreground"
+                )}
+              >
+                <span className="font-bold">{t("Fecha")}</span> {date}
+              </TrackText>
+            </>
           )}
-          <TrackText
-            className={cn(
-              "flex flex-col gap-y-1",
-              active ? "text-black" : "text-muted-foreground"
-            )}
-          >
-            <span className="font-bold">{t("Fecha")}</span> {date}
-          </TrackText>
         </div>
       </span>
     </div>
@@ -120,8 +132,12 @@ export const OpDetails = ({ opName, opPhone }: OpProps) => {
   return (
     <div className="w-full lg:w-fit h-fit flex flex-col gap-y-5 items-center justify-center mt-10 md:mt-0 py-7 lg:py-10 bg-white px-14 lg:px-20 rounded-2xl">
       <OnTitle className="pb-2 md:pb-4">{t("title")}</OnTitle>
-      <TrackText className="text-xl lg:text-2xl text-black font-semibold">{opName}</TrackText>
-      <Link href={`tel:${opPhone}`}>{t("Phone")} <span className="underline text-primary">{opPhone}</span></Link>
+      <TrackText className="text-xl lg:text-2xl text-black font-semibold">
+        {opName}
+      </TrackText>
+      <Link href={`tel:${opPhone}`}>
+        {t("Phone")} <span className="underline text-primary">{opPhone}</span>
+      </Link>
     </div>
   );
 };

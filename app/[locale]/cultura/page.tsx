@@ -16,7 +16,7 @@ export default function Cultura() {
       <Section3 />
       <Section4 />
       <Section2 />
-      <Section6 />
+      {/* <Section6 /> */}
     </main>
   );
 }

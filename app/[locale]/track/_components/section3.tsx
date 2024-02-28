@@ -25,14 +25,37 @@ export const Section3 = ({ data }: DataProps) => {
                 opPhone={data.props.item["Teléfono Operador"]}
               />
             </div>
-            <TrackUpdate
-              status="pickup"
-              active={false}
-              date={data.props.item["Fecha Salida"]}
-              direction={data.props.item["Lugar de Salida"]}
-            />
-            {data.props.item["Estatus"] == "Entregado" ? (
+
+            {data.props.item["Estatus"] === "Pick Up" ? (
               <>
+                <TrackUpdate
+                  status="pickup"
+                  active={true}
+                  date={data.props.item["Fecha Salida"]}
+                  direction={data.props.item["Lugar de Salida"]}
+                />
+                <TrackUpdate
+                  status="onroute"
+                  active={false}
+                  direction={data.props.item["Ubicación Actual"]}
+                  eta={data.props.item["ETA"]}
+                />
+                <TrackUpdate
+                  status="delivered"
+                  active={false}
+                  date={data.props.item["Fecha Entrega"]}
+                  direction={data.props.item["Dirección de Entrega"]}
+                  eta={data.props.item["ETA"]}
+                />
+              </>
+            ) : data.props.item["Estatus"] === "Entregado" ? (
+              <>
+                <TrackUpdate
+                  status="pickup"
+                  active={false}
+                  date={data.props.item["Fecha Salida"]}
+                  direction={data.props.item["Lugar de Salida"]}
+                />
                 <TrackUpdate
                   status="onroute"
                   active={false}
@@ -49,7 +72,13 @@ export const Section3 = ({ data }: DataProps) => {
               </>
             ) : (
               <>
-              <TrackUpdate
+                <TrackUpdate
+                  status="pickup"
+                  active={false}
+                  date={data.props.item["Fecha Salida"]}
+                  direction={data.props.item["Lugar de Salida"]}
+                />
+                <TrackUpdate
                   status="onroute"
                   active={true}
                   direction={data.props.item["Ubicación Actual"]}
@@ -62,7 +91,7 @@ export const Section3 = ({ data }: DataProps) => {
                   direction={data.props.item["Dirección de Entrega"]}
                   eta={data.props.item["ETA"]}
                 />
-                </>
+              </>
             )}
           </div>
         </div>

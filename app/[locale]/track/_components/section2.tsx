@@ -23,9 +23,6 @@ export const Section2 = () => {
     <section className="w-full h-fit grid items-center lg:items-stretch justify-between px-5 md:px-7 lg:px-14 grid-cols-1 lg:grid-cols-2 gap-y-10 md:gap-y-14 lg:gap-x-20">
       <div className="w-full h-fit flex flex-col gap-y-5 md:gap-y-10 items-center lg:items-start justify-center">
         <Title className="text-center lg:text-start">{t("TitleTrack")}</Title>
-        <TextPrimary className="text-center lg:text-start">
-          {t("TextTrack")}
-        </TextPrimary>
       </div>
       <form
         onSubmit={handleSubmit}

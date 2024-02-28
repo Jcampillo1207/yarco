@@ -79,7 +79,15 @@ export default async function Tracking({
   return (
     <main className="w-full h-fit flex flex-col gap-y-14 md:gap-y-20 lg:gap-y-28 pb-10 md:pb-14 lg:pb-16">
       <Section1 />
-      {excelData ? <Section3 data={excelData} /> : <section className="w-full h-fit px-5 md:px-7 lg:px-14 py-10 md:py-14 lg:py-20 flex items-center justify-center"><TextPrimary className="text-center">No pudimos encontrar tu orden</TextPrimary></section>}
+      {excelData ? (
+        <Section3 data={excelData} />
+      ) : (
+        <section className="w-full h-fit px-5 md:px-7 lg:px-14 py-10 md:py-14 lg:py-20 flex items-center justify-center">
+          <TextPrimary className="text-center">
+            No pudimos encontrar tu orden
+          </TextPrimary>
+        </section>
+      )}
     </main>
   );
 }

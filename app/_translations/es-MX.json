@@ -43,7 +43,8 @@
   },
 
   "HomePageSec3": {
-    "title": "Confiamos en la calidad de nuestros procesos"
+    "title": "Confiamos en la calidad de nuestros procesos",
+    "text": "En Yarco, la calidad es el núcleo de nuestra misión, reflejada en la excepcionalidad de nuestros procesos logísticos y de transporte. Nos enorgullece garantizar soluciones integrales que superan constantemente las expectativas, aseguradas por la implementación de tecnologías avanzadas y la meticulosa selección de recursos. Nuestros puntos estratégicos de acceso y operación, tanto a nivel nacional como internacional, nos permiten ofrecer un servicio sin precedentes, reafirmando nuestro compromiso con la eficiencia y la seguridad."
   },
 
   "HomePageSec4": {
@@ -54,7 +55,8 @@
   },
 
   "HomePageSec5": {
-    "title": "¿Por qué YARCO?"
+    "title": "¿Por qué YARCO?",
+    "text": "Con más de 20 años de experiencia en la industria del transporte y la logística, hemos perfeccionado nuestro enfoque para ofrecer soluciones eficientes y confiables que satisfacen las necesidades específicas de nuestros clientes. Entendemos que no hay dos negocios iguales. Por eso, ofrecemos soluciones logísticas personalizadas, adaptadas a las necesidades únicas de cada cliente, asegurando que cada envío sea manejado con la atención y cuidado que merece."
   },
 
   "HomePageSec6": {
@@ -112,14 +114,14 @@
 
   "ProdsSec3": {
     "title": "Atención al cliente excepcional",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+    "text": "En Yarco, entendemos que la excelencia en el servicio al cliente es tan crucial como la calidad de nuestros servicios logísticos. Nuestro equipo dedicado de profesionales está comprometido a ofrecer una atención personalizada, asegurando que cada interacción sea eficiente, informativa y adaptada a las necesidades únicas de nuestros clientes. Priorizamos la comunicación clara y constante, manteniéndote informado en cada etapa del proceso de transporte. Nuestro enfoque proactivo en la resolución de problemas garantiza que cualquier desafío se maneje con rapidez y profesionalismo, demostrando nuestro compromiso inquebrantable con tu satisfacción"
   },
 
   "ProdsSec4": {
     "title": "Experiencia en el campo",
-    "tab1text": "Para nosotros nuestros clientes van primero, en YARCO contamos con empresas hermanas que facilitan tus procesos logisticos de manera innovadora segura y rapida. Acercate y descubre todas las posibilidades para mejorar tus procesos.",
-    "tab2text": "Para nosotros nuestros clientes van primero, en YARCO contamos con empresas hermanas que facilitan tus procesos logisticos de manera innovadora segura y rapida. Acercate y descubre todas las posibilidades para mejorar tus procesos.",
-    "tab3text": "Para nosotros nuestros clientes van primero, en YARCO contamos con empresas hermanas que facilitan tus procesos logisticos de manera innovadora segura y rapida. Acercate y descubre todas las posibilidades para mejorar tus procesos."
+    "tab1text": "Luis Campos- Yarco es una compañía orientada a los resultados como la entrega oportuna de sus unidades, trabajar con ellos es un gran aporte a la agilidad de nuestra cadena de suministro Empresa- Milwaukee Tools",
+    "tab2text": "Company - YURA CORPORATIONS Arely Sanchez - The quality and commitment of this company to make deliveries on time, as well as the excellent customer service from the executives, has allowed us to guarantee timely supply to our production lines.",
+    "tab3text": "Company - Fundilag Mario Segura - Our business depends on punctuality, and this company has never let us down. Every delivery has arrived on time, keeping our supply chain smooth and efficient."
   },
 
   "DrySection1": {
@@ -286,14 +288,14 @@
 
   "AboutPageSec4": {
     "title": "Mas de 20 años de experiencia",
-    "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
     "btn1": "Obtén una cotización",
     "btn2": "Conoce nuestro equipo"
   },
 
   "AboutPageSec5": {
     "title": "Orgulloso equipo certificado",
-    "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?"
+    "text": "Para YARCO es un compromiso brindar un servicio de calidad en el transporte y logística que permita satisfacer plenamente los requerimientos y necesidades aplicables de los clientes y las partes interesadas, procurando el bienestar y desarrollo de sus asociados, cumpliendo con los requisitos aplicables en materia de seguridad vial, promoviendo actividades de prevención de accidentes e incidentes en la vía publica, garantizando el buen uso de los vehículos, certificando los procesos de transporte de mercancías, apoyando en las competencias técnicas del personal y la tecnología, para mejorar continuamente el sistema de gestión de calidad y seguridad vial."
   },
 
   "AboutPageSec2": {

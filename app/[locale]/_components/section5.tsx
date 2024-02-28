@@ -12,10 +12,7 @@ export const Section5 = () => {
       <div className="w-full flex items-center justify-center flex-col gap-y-5 md:gap-y-7">
         <Title>{t("title")}</Title>
         <TextPrimary>
-          Lorem ipsum dolor sit amet consectetur. Pulvinar nulla posuere neque
-          odio sit consectetur sed montes urna. Dictum consequat scelerisque
-          nibh ipsum. Amet quam urna nibh pretium nunc morbi. Integer turpis
-          turpis a condimentum vitae.
+          {t("text")}
         </TextPrimary>
       </div>
       <div className="w-full h-fit grid grid-cols-2 lg:grid-cols-4 items-center justify-center px-5 md:px-16 lg:px-28 gap-0 md:gap-10 lg:gap-14">
