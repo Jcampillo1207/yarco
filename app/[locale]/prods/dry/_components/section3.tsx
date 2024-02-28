@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 export const Section3 = () => {
   const t = useTranslations("DrySection2");
   return (
-    <DynamicSection3 title={t("title")} text={""}>
+    <DynamicSection3 title={t("title")}>
       <CharCard text={t("card1")}>
         <Ship
           className="w-auto h-20 min-h-[60px] text-primary"
