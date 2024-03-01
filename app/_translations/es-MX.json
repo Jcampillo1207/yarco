@@ -79,7 +79,8 @@
   },
 
   "TrackPageSec3": {
-    "title": "Número de orden:"
+    "title": "Número de orden:",
+    "back": "Regresar"
   },
 
   "TrackingStatus": {
@@ -120,8 +121,8 @@
   "ProdsSec4": {
     "title": "Experiencia en el campo",
     "tab1text": "Luis Campos- Yarco es una compañía orientada a los resultados como la entrega oportuna de sus unidades, trabajar con ellos es un gran aporte a la agilidad de nuestra cadena de suministro Empresa- Milwaukee Tools",
-    "tab2text": "Company - YURA CORPORATIONS Arely Sanchez - The quality and commitment of this company to make deliveries on time, as well as the excellent customer service from the executives, has allowed us to guarantee timely supply to our production lines.",
-    "tab3text": "Company - Fundilag Mario Segura - Our business depends on punctuality, and this company has never let us down. Every delivery has arrived on time, keeping our supply chain smooth and efficient."
+    "tab2text": "Empresa-YURA CORPORATIONS Arely Sanchez—La calidad y compromiso que tiene esta empresa para hacer las entregas a tiempo, además del excelente servicio al cliente por parte de los ejecutivos, nos ha permitido garantizar un puntual abastecimiento a nuestras líneas de producción.",
+    "tab3text": "Empresa- Fundilag Mario Segura- Nuestro negocio depende de la puntualidad, y esta empresa nunca nos ha fallado. Cada entrega ha llegado a tiempo, manteniendo nuestra cadena de suministro fluida y eficiente."
   },
 
   "DrySection1": {
@@ -273,7 +274,8 @@
     "detalles": "Detalles adicionales:",
     "pdetalles": "Quisiera recibir una cotización",
     "button": "Enviar formulario",
-    "buttonload": "Cargando..."
+    "buttonload": "Cargando...",
+    "otro": "Otro"
   },
 
   "Tnks": {
@@ -283,7 +285,7 @@
   },
 
   "CultureSec3": {
-    "title": "Nuestros clientes"
+    "title": "Nuestros increíbles clientes"
   },
 
   "AboutPageSec4": {
@@ -323,6 +325,11 @@
     "text2": "La S.H.CP Otorgó Antonio Yarza Campos la patente aduanal No. 621 para la aduana de Torreón con autorización para operar en las aduanas de Ciudad Juárez, Nuevo Laredo, Piedras Negras, Tampico y Altamira.",
     "text3": "A principios de 1993 Antonio Yarza Campos renuncia su patente y la dirección general de aduanas otorga a su hija Lic. María Eugenia Yarza Rodríguez en sustitución la patente renunciada por su padre misma que opera dentro de la sociedad denominada Yarza y Cia. S. C. Por las aduanas de Ciudad Juárez,Chihuahua, Nuevo Laredo, Tampico, Altamira y Tamaulipas.",
     "text4": "Para inicios de 1994 el Lic. Fernando Yarza Rodríguez obtiene una nueva patente aduanal que complementaría los servicios ofrecidos incluyendo las aduanas de Nuevo Laredo,  Tamaulipas,  Colombia, Nuevo León, Piedras Negras y Torreón Coahuila constituyendo una nueva sociedad bajo el nombre de Fernando Yarza y Cia S.C.",
-    "text5": "A mediados de 1996 Fernando Yarza y Cia S.C.Se integra el grupo la empresa de consultoría y gestión bajo el nombre de consultores aduanales del Norte sc y la operadora de recepción y expedición de mercancías en Texas denominada t&t forwarding services inc. Consolidándose la operación del grupo a donaldsa que cuenta con servicios personales por las aduanas mencionadas y ofrece despacho en correspondencia por las aduanas de Veracruz Manzanillo Aeropuerto Internacional de México y la fronteriza de Matamoros Tamaulipas."
+    "text5": "A mediados de 1996 Fernando Yarza y Cia S.C.Se integra el grupo la empresa de consultoría y gestión bajo el nombre de consultores aduanales del Norte sc y la operadora de recepción y expedición de mercancías en Texas denominada t&t forwarding services inc. Consolidándose la operación del grupo a donaldsa que cuenta con servicios personales por las aduanas mencionadas y ofrece despacho en correspondencia por las aduanas de Veracruz Manzanillo Aeropuerto Internacional de México y la fronteriza de Matamoros Tamaulipas.",
+    "text6": "Empieza la linea importex autotransporte, a cargo del lic Fernando Yarza con unidades tipo thorton y cajas trailer para dar servicio a la Agencia aduanal.",
+    "text7": "El Lic Alejandro Yarza aumenta la flotilla como persona fisica introduciendo camionetas de 3 tn y estaquitas para manejo de plazuelas, cruces y viajes hot shots.",
+    "text8": "Importex cambia de nombre a Yarco Logistic Sa de Cv, y toma la direccion de la lines el Lic alejandro Yarza, aumentando la flota en 15 unidades mas de carretera y 40 cajas trailer,teniendo como ruta principal, la laguna, nuevo Laredo, Monterrey, Saltillo y el area del Bajio.",
+    "text9": "Nace A&F Servicios Logisticos, para dar servicios en otras rutas en las que Yarco no corre con unidades propias, haciendo alianzas con transportistas en los puertos maritmos y otras fronteras y asi asegurar buenos precios y mas rutas para sus clientes.",
+    "text10": "Nace RAAF Logistics LLC linea de trasnporte americano para ofrecer servicios de carga directos entre Mexico y EEUU con 15 Unidades y 45 cajas trailer."
   }
 }

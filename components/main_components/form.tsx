@@ -381,6 +381,20 @@ export const Form = () => {
                     {t("serv4")}
                   </Label>
                 </span>
+                <span className="w-full flex gap-x-3 items-center justify-start">
+                  <input
+                    id="arrastre"
+                    type="checkbox"
+                    name="Arrastre"
+                    className="border-2 border-muted-foreground rounded-md px-3 py-1 text-sm font-regular checked:bg-primary"
+                  />
+                  <Label
+                    htmlFor="arrastre"
+                    className="text-muted-foreground truncate"
+                  >
+                    {t("otro")}
+                  </Label>
+                </span>
               </div>
             </div>
             <div className="w-full h-fit flex flex-col gap-y-7 items-start justify-start">

@@ -79,7 +79,8 @@
   },
 
   "TrackPageSec3": {
-    "title": "Order number:"
+    "title": "Order number:",
+    "back": "Return"
   },
 
   "TrackingStatus": {
@@ -120,8 +121,8 @@
   "ProdsSec4": {
     "title": "Experience on the field",
     "tab1text": "Luis Campos - Yarco is a results-oriented company, such as the timely delivery of its units. Working with them is a great contribution to the agility of our supply chain. Company - Milwaukee Tools",
-    "tab2text": "For us, our customers come first. At YARCO, we have sister companies that innovate to facilitate your logistics processes in a safe and fast manner. Get closer and discover all the possibilities to improve your processes.",
-    "tab3text": "For us, our customers come first. At YARCO, we have sister companies that innovate to facilitate your logistics processes in a safe and fast manner. Get closer and discover all the possibilities to improve your processes."
+    "tab2text": "Company - YURA CORPORATIONS Arely Sanchez - The quality and commitment of this company to make deliveries on time, as well as the excellent customer service from the executives, has allowed us to guarantee timely supply to our production lines.",
+    "tab3text": "Company - Fundilag Mario Segura - Our business depends on punctuality, and this company has never let us down. Every delivery has arrived on time, keeping our supply chain smooth and efficient."
   },
 
   "DrySection1": {
@@ -273,7 +274,8 @@
     "detalles": "Additional details:",
     "pdetalles": "ej. I want to get a quote",
     "button": "Send form",
-    "buttonload": "Loading..."
+    "buttonload": "Loading...",
+    "otro": "Other"
   },
 
   "Tnks": {
@@ -283,7 +285,7 @@
   },
 
   "CultureSec3": {
-    "title": "Our clients"
+    "title": "Our awesome clients"
   },
 
   "AboutPageSec4": {
@@ -323,6 +325,11 @@
     "text2": "The S.H.CP granted Antonio Yarza Campos customs patent No. 621 for the customs of Torreón, with authorization to operate in the customs of Ciudad Juárez, Nuevo Laredo, Piedras Negras, Tampico, and Altamira.",
     "text3": "In early 1993, Antonio Yarza Campos resigned his patent, and the General Customs Directorate granted his daughter, Lic. María Eugenia Yarza Rodríguez, the patent in substitution for the one resigned by her father. This patent operates within the company called Yarza y Cia. S. C. for the customs of Ciudad Juárez, Chihuahua, Nuevo Laredo, Tampico, Altamira, and Tamaulipas.",
     "text4": "In early 1994, Lic. Fernando Yarza Rodríguez obtained a new customs patent that would complement the services offered, including the customs of Nuevo Laredo, Tamaulipas, Colombia, Nuevo León, Piedras Negras, and Torreón, Coahuila. This led to the establishment of a new company named Fernando Yarza y Cia S.C.",
-    "text5": "In mid-1996, Fernando Yarza y Cia S.C. integrated the consulting and management company named Consultores Aduanales del Norte SC, as well as the goods reception and dispatch operator in Texas known as T&T Forwarding Services Inc. This consolidation of the group's operations led to the creation of Donaldsa, which provides personal services for the aforementioned customs and offers clearance services through the customs of Veracruz, Manzanillo, the Mexico International Airport, and the border customs of Matamoros, Tamaulipas."
+    "text5": "In mid-1996, Fernando Yarza y Cia S.C. integrated the consulting and management company named Consultores Aduanales del Norte SC, as well as the goods reception and dispatch operator in Texas known as T&T Forwarding Services Inc. This consolidation of the group's operations led to the creation of Donaldsa, which provides personal services for the aforementioned customs and offers clearance services through the customs of Veracruz, Manzanillo, the Mexico International Airport, and the border customs of Matamoros, Tamaulipas.",
+    "text6": "The Importex autotransport line begins, led by Lic. Fernando Yarza with thorton-type units and trailer boxes to serve the Customs Agency.",
+    "text7": "Lic. Alejandro Yarza expands the fleet as an individual by introducing 3-ton vans and stake trucks for handling plazas, crossings, and hot shot trips.",
+    "text8": "Importex changes its name to Yarco Logistic Sa de Cv, and Lic. Alejandro Yarza takes over the management of the line, increasing the fleet by 15 more highway units and 40 trailer boxes, with the main route being La Laguna, Nuevo Laredo, Monterrey, Saltillo, and the Bajio area.",
+    "text9": "A&F Servicios Logisticos is born to provide services on other routes where Yarco does not operate with its own units, forming alliances with carriers in seaports and other borders to ensure good prices and more routes for their clients.",
+    "text10": "RAAF Logistics LLC, an American transport line, is born to offer direct cargo services between Mexico and the USA with 15 Units and 45 trailer boxes."
   }
 }

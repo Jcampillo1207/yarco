@@ -25,13 +25,6 @@ export const Section4 = () => {
           >
             {t("btn1")}
           </Button>
-          <Button
-            variant={"secondary"}
-            size={"default"}
-            onClick={() => router.push("/track")}
-          >
-            {t("btn2")}
-          </Button>
         </div>
       </div>
       <div className="w-full h-[400px] relative rounded-lg overflow-hidden flex items-center justify-center">

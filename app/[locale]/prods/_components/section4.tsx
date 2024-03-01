@@ -19,21 +19,36 @@ export const Section4 = () => {
           <TabsList className="bg-transparent grid grid-flow-col lg:grid-cols-1 lg:grid-flow-row col-span-1 lg:col-span-3">
             <TabsTrigger
               value="emp1"
-              className="h-56 mx-auto rounded-lg aspect-square"
+              className="h-56 mx-auto rounded-lg aspect-square relative overflow-hidden"
             >
-              <Raaf />
+              <Image
+                src={"/mil.png"}
+                fill
+                className="object-contain"
+                alt="image"
+              />
             </TabsTrigger>
             <TabsTrigger
               value="emp2"
-              className="h-56 mx-auto rounded-lg aspect-square"
+              className="h-56 mx-auto rounded-lg aspect-square relative"
             >
-              <Aduana />
+              <Image
+                src={"/yura.png"}
+                fill
+                className="object-contain"
+                alt="image"
+              />
             </TabsTrigger>
             <TabsTrigger
               value="emp3"
-              className="h-56 mx-auto rounded-lg aspect-square"
+              className="h-56 mx-auto rounded-lg aspect-square relative px-5"
             >
-              <AF />
+               <Image
+                src={"/fundi.png"}
+                fill
+                className="object-contain"
+                alt="image"
+              />
             </TabsTrigger>
           </TabsList>
           <div className="col-span-1 lg:col-span-9 items-center justify-center">
@@ -41,7 +56,7 @@ export const Section4 = () => {
               <div className="w-full h-full flex flex-col items-center justify-center gap-y-10 lg:px-32">
                 <div className="w-full h-[60%] rounded-xl relative overflow-hidden">
                   <Image
-                    src={"/expertise.png"}
+                    src={"/milw.jpeg"}
                     quality={100}
                     loading="lazy"
                     alt="Hola"
@@ -49,16 +64,14 @@ export const Section4 = () => {
                     className="object-cover"
                   />
                 </div>
-                <p className="lg:max-w-xl text-center">
-                  {t("tab1text")}
-                </p>
+                <p className="lg:max-w-xl text-center">{t("tab1text")}</p>
               </div>
             </TabsContent>
             <TabsContent value="emp2">
               <div className="w-full h-full flex flex-col items-center justify-center gap-y-10 lg:px-32">
                 <div className="w-full h-[60%] rounded-lg relative overflow-hidden">
                   <Image
-                    src={"/trucker.png"}
+                    src={"/yurac.jpeg"}
                     quality={100}
                     loading="lazy"
                     alt="Hola"
@@ -66,16 +79,14 @@ export const Section4 = () => {
                     className="object-cover"
                   />
                 </div>
-                <p className="lg:max-w-xl text-center">
-                  {t("tab2text")}
-                </p>
+                <p className="lg:max-w-xl text-center">{t("tab2text")}</p>
               </div>
             </TabsContent>
             <TabsContent value="emp3">
               <div className="w-full h-full flex flex-col items-center justify-center gap-y-10 lg:px-32">
                 <div className="w-full h-[60%] rounded-lg relative overflow-hidden">
                   <Image
-                    src={"/seca.jpeg"}
+                    src={"/fundil.jpeg"}
                     quality={100}
                     loading="lazy"
                     alt="Hola"
@@ -83,9 +94,7 @@ export const Section4 = () => {
                     className="object-cover"
                   />
                 </div>
-                <p className="lg:max-w-xl text-center">
-                  {t("tab3text")}
-                </p>
+                <p className="lg:max-w-xl text-center">{t("tab3text")}</p>
               </div>
             </TabsContent>
           </div>
