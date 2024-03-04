@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Mail, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Section5 } from "../prods/dry/_components/section5";
+import Link from "next/link";
 
 export default function Contacto() {
   const t = useTranslations("ContactPageSec1");
@@ -18,9 +19,12 @@ export default function Contacto() {
             variant={"secondary"}
             size={"lg"}
             className="w-full lg:w-fit flex gap-x-2 items-center"
+            asChild
           >
+            <Link href={"tel:18712778020"}>
             {t("btn1")}
             <Phone className="w-4 h-4" />
+            </Link>
           </Button>
           <Button
             variant={"secondary"}
