@@ -19,32 +19,31 @@ export const Section3 = ({ data }: DataProps) => {
   const router = useRouter();
   return (
     <>
-      <section className="w-full h-fit flex flex-col items-center justify-center px-5 md:px-7 lg:px-14 gap-y-10 md:gap-y-14 lg:gap-x-20">
+      <section className="w-full h-fit grid grid-cols-1 lg:grid-cols-3 items-start justify-start px-5 md:px-7 lg:px-14 gap-y-10 md:gap-y-14 lg:gap-x-20">
         {data !== undefined ? (
-          <div className="w-full h-fit grid grid-cols-1 px-0 md:px-5 lg:px-16 xl:px-36 gap-x-10 lg:gap-x-5 xl:gap-x-14">
-            {/* Los Status están definidos así: "pickup", "onroute", "delivered" para que los uses tal cual, por la traducción */}
-            <div className="w-fit mx-auto h-fit flex flex-col items-start gap-y-0">
-              <div className="w-full h-fit flex flex-col gap-y-4 items-center pb-10 lg:pb-14">
-                <div className="w-full h-fit items-start justify-start flex px-5 md:px-7 lg:px-14 gap-y-10 md:gap-y-14 lg:gap-x-20">
-                  <Button
-                    variant={"ghost"}
-                    size={"sm"}
-                    className="flex gap-x-2  flex-row-reverse"
-                    onClick={() => router.push("/track")}
-                  >
-                    {t("back")}
-                    <ArrowLeft className="w-4 h-4" />
-                  </Button>
-                </div>
-                <OnTitle>{t("title")}</OnTitle>
-                <TextPrimary className="font-bold text-xl">
-                  {data.id}
-                </TextPrimary>
-                <OpDetails
-                  opName={data.props.item.Operador}
-                  opPhone={data.props.item["Teléfono Operador"]}
-                />
+          <>
+            <div className="w-full h-fit flex flex-col gap-y-4 items-center pb-10 lg:pb-14">
+              <div className="w-full h-fit items-start justify-start flex px-5 md:px-7 lg:px-14 gap-y-10 md:gap-y-14 lg:gap-x-20">
+                <Button
+                  variant={"ghost"}
+                  size={"sm"}
+                  className="flex gap-x-2  flex-row-reverse"
+                  onClick={() => router.push("/")}
+                >
+                  {t("back")}
+                  <ArrowLeft className="w-4 h-4" />
+                </Button>
               </div>
+              <OnTitle>{t("title")}</OnTitle>
+              <TextPrimary className="font-bold text-xl">{data.props.item["Tracking #"]}</TextPrimary>
+              <OpDetails
+                opName={data.props.item.Operador}
+                opPhone={data.props.item["Teléfono Operador"]}
+                opMail={data.props.item["Email Operador"]}
+              />
+            </div>
+            <div className="w-full h-fit grid grid-cols-1 col-span-1 lg:col-span-2 px-0 md:px-5 lg:px-16 xl:px-36 gap-x-10 lg:gap-x-5 xl:gap-x-14">
+              {/* Los Status están definidos así: "pickup", "onroute", "delivered" para que los uses tal cual, por la traducción */}
 
               {data.props.item["Estatus"] === "Pick Up" ? (
                 <>
@@ -114,7 +113,7 @@ export const Section3 = ({ data }: DataProps) => {
                 </>
               )}
             </div>
-          </div>
+          </>
         ) : (
           <div>No pudimos encontrar tu número de orden</div>
         )}

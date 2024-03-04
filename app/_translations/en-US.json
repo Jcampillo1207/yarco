@@ -95,7 +95,8 @@
 
   "Operator": {
     "title": "Operator in charge:",
-    "Phone": "Phone number:"
+    "Phone": "Phone number:",
+    "Mail": "Email"
   },
 
   "ProdsSec1": {

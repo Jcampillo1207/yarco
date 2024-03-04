@@ -19,6 +19,7 @@ interface Props {
 interface OpProps {
   opName?: string;
   opPhone?: string;
+  opMail?: string;
 }
 
 export const TrackUpdate = ({
@@ -127,7 +128,7 @@ export const TrackUpdate = ({
   );
 };
 
-export const OpDetails = ({ opName, opPhone }: OpProps) => {
+export const OpDetails = ({ opName, opPhone, opMail }: OpProps) => {
   const t = useTranslations("Operator");
   return (
     <div className="w-full lg:w-fit h-fit flex flex-col gap-y-5 items-center justify-center mt-10 md:mt-0 py-7 lg:py-10 bg-white px-14 lg:px-20 rounded-2xl">
@@ -137,6 +138,9 @@ export const OpDetails = ({ opName, opPhone }: OpProps) => {
       </TrackText>
       <Link href={`tel:${opPhone}`}>
         {t("Phone")} <span className="underline text-primary">{opPhone}</span>
+      </Link>
+      <Link href={`mailto:${opMail}`}>
+        {t("Mail")} <span className="underline text-primary">{opMail}</span>
       </Link>
     </div>
   );

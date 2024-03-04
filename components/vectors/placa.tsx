@@ -202,8 +202,8 @@ export const Placa = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(226.704 283.388) rotate(137.104) scale(101.288 101.288)"
         >
-          <stop stop-color="#9CA7B6" />
-          <stop offset="1" stop-color="#9CA7B6" />
+          <stop stopColor="#9CA7B6" />
+          <stop offset="1" stopColor="#9CA7B6" />
         </radialGradient>
         <linearGradient
           id="paint1_linear_964_3719"
@@ -213,8 +213,8 @@ export const Placa = () => {
           y2="326.586"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9CA7B6" />
-          <stop offset="1" stop-color="#9CA7B6" />
+          <stop stopColor="#9CA7B6" />
+          <stop offset="1" stopColor="#9CA7B6" />
         </linearGradient>
       </defs>
     </svg>
