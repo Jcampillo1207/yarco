@@ -65,7 +65,7 @@ export const Section4 = () => {
                   />
                 </div>
                 <p className="lg:max-w-xl text-base md:text-lg lg:text-xl xl:text-2xl text-center md:text-center lg:text-center">
-                  "{t("tab1text")}"
+                  &ldquo;{t("tab1text")}&ldquo;
                 </p>
                 <span className="flex gap-x-1">
                   <p>{t("tab1name")}</p>
@@ -86,7 +86,7 @@ export const Section4 = () => {
                   />
                 </div>
                 <p className="lg:max-w-xl text-base md:text-lg lg:text-xl xl:text-2xl text-center md:text-center lg:text-center">
-                  "{t("tab2text")}"
+                  &ldquo;{t("tab2text")}&ldquo;
                 </p>
                 <span className="flex gap-x-1">
                   <p>{t("tab2name")}</p>
@@ -107,7 +107,7 @@ export const Section4 = () => {
                   />
                 </div>
                 <p className="lg:max-w-xl text-base md:text-lg lg:text-xl xl:text-2xl text-center md:text-center lg:text-center">
-                  "{t("tab3text")}"
+                  &ldquo;{t("tab3text")}&ldquo;
                 </p>
                 <span className="flex gap-x-1">
                   <p>{t("tab3name")}</p>
