@@ -10,7 +10,6 @@ import { Section7 } from "./_components/section7";
 export default function Cultura() {
   return (
     <main className="w-full h-fit flex flex-col gap-y-14 md:gap-y-20 lg:gap-y-28">
-      <Section1 />
       <Section7 />
       <Section5 />
       <Section3 />

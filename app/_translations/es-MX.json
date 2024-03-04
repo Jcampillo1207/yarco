@@ -120,9 +120,15 @@
 
   "ProdsSec4": {
     "title": "Experiencia en el campo",
-    "tab1text": "Luis Campos- Yarco es una compañía orientada a los resultados como la entrega oportuna de sus unidades, trabajar con ellos es un gran aporte a la agilidad de nuestra cadena de suministro Empresa- Milwaukee Tools",
-    "tab2text": "Empresa-YURA CORPORATIONS Arely Sanchez—La calidad y compromiso que tiene esta empresa para hacer las entregas a tiempo, además del excelente servicio al cliente por parte de los ejecutivos, nos ha permitido garantizar un puntual abastecimiento a nuestras líneas de producción.",
-    "tab3text": "Empresa- Fundilag Mario Segura- Nuestro negocio depende de la puntualidad, y esta empresa nunca nos ha fallado. Cada entrega ha llegado a tiempo, manteniendo nuestra cadena de suministro fluida y eficiente."
+    "tab1name": "Luis Campos",
+    "tab1company": "de Milawakee Tools",
+    "tab1text": "Yarco es una compañía orientada a los resultados como la entrega oportuna de sus unidades, trabajar con ellos es un gran aporte a la agilidad de nuestra cadena de suministro.",
+    "tab2name": "Arely Sánchez",
+    "tab2company": "de YURA Corporations",
+    "tab2text": "La calidad y compromiso que tiene esta empresa para hacer las entregas a tiempo, además del excelente servicio al cliente por parte de los ejecutivos, nos ha permitido garantizar un puntual abastecimiento a nuestras líneas de producción.",
+    "tab3name": "Mario Segura",
+    "tab3company": "de Fundilag",
+    "tab3text": "Nuestro negocio depende de la puntualidad, y esta empresa nunca nos ha fallado. Cada entrega ha llegado a tiempo, manteniendo nuestra cadena de suministro fluida y eficiente."
   },
 
   "DrySection1": {
@@ -147,7 +153,7 @@
 
   "DrySection4": {
     "title": "Soluciones en caja seca",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "La Caja Seca representa una solución de transporte esencial y versátil dentro de nuestra amplia gama de servicios en Yarco. Diseñadas para proteger la mercancía de los elementos, estas unidades selladas ofrecen un ambiente controlado y seguro para el transporte de una variedad de cargas, desde bienes de consumo hasta equipamiento especializado. La robustez y fiabilidad de nuestras cajas secas aseguran que su carga llegue en perfecto estado, independientemente del clima o las condiciones del viaje",
     "btn": "Contáctanos"
   },
 
@@ -228,7 +234,7 @@
 
   "DragSection4": {
     "title": "Soluciones en arrastre",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "El Arrastre en Yarco es una solución eficiente para el transporte de carga pesada y voluminosa. Contamos con vehículos y equipos de última generación para un manejo seguro y preciso de mercancías, desde maquinaria hasta estructuras grandes. Nuestro equipo experto garantiza operaciones cuidadosas y adaptadas a cada cliente, haciendo de Yarco la elección ideal para el manejo de cargas complejas, asegurando su entrega óptima.",
     "btn": "Contáctanos"
   },
 
@@ -290,7 +296,7 @@
 
   "AboutPageSec4": {
     "title": "Mas de 20 años de experiencia",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "Con más de 20 años en la industria de transporte y logística, Yarco se destaca por su experiencia y liderazgo. Esta trayectoria nos ha capacitado para ofrecer soluciones innovadoras y adaptadas a nuestros clientes, anticipándonos a las tendencias y superando desafíos logísticos. En Yarco, aprovechamos nuestra vasta experiencia para asegurar que su carga reciba el manejo más experto.",
     "btn1": "Obtén una cotización",
     "btn2": "Conoce nuestro equipo"
   },

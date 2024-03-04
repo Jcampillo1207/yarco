@@ -119,10 +119,16 @@
   },
 
   "ProdsSec4": {
-    "title": "Experience on the field",
-    "tab1text": "Luis Campos - Yarco is a results-oriented company, such as the timely delivery of its units. Working with them is a great contribution to the agility of our supply chain. Company - Milwaukee Tools",
-    "tab2text": "Company - YURA CORPORATIONS Arely Sanchez - The quality and commitment of this company to make deliveries on time, as well as the excellent customer service from the executives, has allowed us to guarantee timely supply to our production lines.",
-    "tab3text": "Company - Fundilag Mario Segura - Our business depends on punctuality, and this company has never let us down. Every delivery has arrived on time, keeping our supply chain smooth and efficient."
+    "title": "Experience in the Field",
+    "tab1name": "Luis Campos",
+    "tab1company": "from Milwaukee Tools",
+    "tab1text": "Yarco is a results-oriented company, like the timely delivery of their units, working with them is a great contribution to the agility of our supply chain.",
+    "tab2name": "Arely Sánchez",
+    "tab2company": "from YURA Corporations",
+    "tab2text": "The quality and commitment of this company to make deliveries on time, in addition to the excellent customer service from the executives, has allowed us to guarantee timely supply to our production lines.",
+    "tab3name": "Mario Segura",
+    "tab3company": "from Fundilag",
+    "tab3text": "Our business depends on punctuality, and this company has never failed us. Every delivery has arrived on time, keeping our supply chain smooth and efficient."
   },
 
   "DrySection1": {
@@ -147,7 +153,7 @@
 
   "DrySection4": {
     "title": "Dry van solutions",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "The Dry Van represents an essential and versatile transportation solution within our wide range of services at Yarco. Designed to protect the merchandise from the elements, these sealed units offer a controlled and safe environment for transporting a variety of loads, from consumer goods to specialized equipment. The robustness and reliability of our dry vans ensure that your cargo arrives in perfect condition, regardless of the weather or travel conditions.",
     "btn": "Contact us"
   },
 
@@ -228,7 +234,7 @@
 
   "DragSection4": {
     "title": "Drag Solutions",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "Drag at Yarco is an efficient solution for transporting heavy and bulky cargo. We have state-of-the-art vehicles and equipment for safe and precise handling of goods, from machinery to large structures. Our expert team ensures careful operations tailored to each customer, making Yarco the ideal choice for handling complex loads, ensuring their optimal delivery.",
     "btn": "Contact us"
   },
 
@@ -290,7 +296,7 @@
 
   "AboutPageSec4": {
     "title": "More than 20 years of experience",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui natus eos. Vitae blanditiis amet magnam modi omnis et! Ea obcaecati laudantium illum blanditiis numquam voluptatem officia natus dolorem veniam?",
+    "text": "With over 20 years in the transportation and logistics industry, Yarco stands out for its experience and leadership. This journey has enabled us to provide innovative and tailored solutions to our clients, anticipating trends and overcoming logistical challenges. At Yarco, we leverage our extensive experience to ensure your cargo receives the most expert handling.",
     "btn1": "Get a quote",
     "btn2": "Know our team"
   },

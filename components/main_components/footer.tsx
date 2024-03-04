@@ -102,7 +102,7 @@ export const Footer = () => {
             {t("Col3-2")}
           </Link>
           <Link
-            href={"tel:"}
+            href={"tel:18712778020"}
             className="hover:underline hover:text-foreground"
           >
             {t("Col3-3")}

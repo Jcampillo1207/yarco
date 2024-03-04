@@ -96,10 +96,10 @@ export const Section7 = () => {
             );
           })}
         </div>
-        <div className="w-full lg:w-1/2 h-auto aspect-video static lg:sticky top-24 transition-all">
+        <div className="w-full lg:w-1/2 h-auto aspect-square static lg:sticky top-24 transition-all">
           <div className="w-full h-full aspect-video relative overflow-hidden rounded-xl">
             <Image
-              src={"/expertise.png"}
+              src={"/a.png"}
               fill
               alt="Image"
               className="object-cover"

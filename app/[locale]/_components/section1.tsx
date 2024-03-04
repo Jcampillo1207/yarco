@@ -10,7 +10,7 @@ export const Section1 = () => {
   return (
     <section className="w-full h-fit flex items-center justify-start px-5 md:px-7 lg:px-14 relative py-14 md:py-32 lg:py-44">
         <div className="w-full h-full overflow-hidden flex items-center justify-center absolute top-0 z-0 right-0">
-            <Image src={"/banner1.png"} alt="Imagen" fill objectFit="cover" className="flex"/>
+            <Image src={"/b.png"} alt="Imagen" fill className="flex object-cover object-bottom"/>
         </div>
       <div className="w-full h-full overflow-hidden flex items-center justify-center bg-foreground/20 absolute top-0 z-10 right-0"></div>
       <div className="flex flex-col items-center md:items-start justify-start gap-y-7 z-20 max-w-4xl">
